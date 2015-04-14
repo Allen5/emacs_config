@@ -29,6 +29,9 @@
 (require 'wakatime-mode)
 (global-wakatime-mode 1)
 
+;;load keybind
+(require 'keybind)
+
 ;;Start on maximize-frame
 (fullscreen-maximize-frame)
 
