@@ -1,9 +1,9 @@
 ;;; semantic-c-by.el --- Generated parser support file
 
-;; Copyright (C) 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010 Eric M. Ludlam
+;; Copyright (C) 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2012 Eric M. Ludlam
 
-;; Author: Eric M. Ludlam <zappo@projectile.siege-engine.com>
-;; Created: 2010-02-20 17:22:46-0500
+;; Author: Allen <allen@ubuntu.ubuntu-domain>
+;; Created: 2015-04-14 21:22:35+0800
 ;; Keywords: syntax
 ;; X-RCS: $Id$
 
@@ -48,6 +48,7 @@
      ("inline" . INLINE)
      ("virtual" . VIRTUAL)
      ("mutable" . MUTABLE)
+     ("explicit" . EXPLICIT)
      ("struct" . STRUCT)
      ("union" . UNION)
      ("enum" . ENUM)
@@ -130,6 +131,7 @@
      ("enum" summary "Enumeration Type Declaration: enum [name] { ... };")
      ("union" summary "Union Type Declaration: union [name] { ... };")
      ("struct" summary "Structure Type Declaration: struct [name] { ... };")
+     ("explicit" summary "Forbids implicit type conversion: explicit <constructor>")
      ("mutable" summary "Member Declaration Modifier: mutable <type> <name> ...")
      ("virtual" summary "Method Modifier: virtual <type> <name>(...) ...")
      ("inline" summary "Function Modifier: inline <return  type> <name>(...) {...};")
@@ -492,6 +494,12 @@
       )
      (template)
      (using)
+     (spp-include
+      ,(semantic-lambda
+	(semantic-tag
+	 (nth 0 vals)
+	 'include :inside-ns t))
+      )
      ( ;;EMPTY
       )
      ) ;; end namespacesubparts
@@ -1244,7 +1252,9 @@
 	 (nth 7 vals))
 	(nth 0 vals)
 	(nth 10 vals)
-	(nth 4 vals))
+	(list
+	 (nth 4 vals))
+	(nth 9 vals))
       )
      (opt-stars
       opt-class
@@ -1266,7 +1276,9 @@
 	 (nth 6 vals))
 	(nth 0 vals)
 	(nth 9 vals)
-	(nth 4 vals))
+	(list
+	 (nth 4 vals))
+	(nth 8 vals))
       )
      ) ;; end func-decl
 
@@ -1988,6 +2000,15 @@
 	 (concat
 	  "*"
 	  (nth 2 vals))))
+      )
+     (open-paren
+      "("
+      symbol
+      close-paren
+      ")"
+      ,(semantic-lambda
+	(list
+	 (nth 1 vals)))
       )
      ) ;; end function-pointer
 

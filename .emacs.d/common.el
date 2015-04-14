@@ -7,7 +7,7 @@
  ;; If there is more than one, they won't work right.
  '(custom-enabled-themes (quote (tango-dark)))
  '(wakatime-api-key "4620f6c4-3daa-460c-9108-8bd05e0af559")
- '(wakatime-cli-path "C:\\Python27\\Lib\\site-packages\\wakatime\\cli.py"))
+ '(wakatime-cli-path "/usr/local/bin/wakatime"))
 
 ;;set font
 (custom-set-faces

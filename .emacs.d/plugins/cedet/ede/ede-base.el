@@ -1,9 +1,9 @@
 ;;; ede-base.el --- Baseclasses for EDE.
 ;;
-;; Copyright (C) 2010 Eric M. Ludlam
+;; Copyright (C) 2010, 2012 Eric M. Ludlam
 ;;
 ;; Author: Eric M. Ludlam <eric@siege-engine.com>
-;; X-RCS: $Id: ede-base.el,v 1.2 2010/02/08 23:46:03 zappo Exp $
+;; X-RCS: $Id: ede-base.el,v 1.5 2010-07-31 01:13:08 zappo Exp $
 ;;
 ;; This program is free software; you can redistribute it and/or
 ;; modify it under the terms of the GNU General Public License as
@@ -88,11 +88,9 @@ which files this object is interested in."
 		:accessor ede-object-keybindings)
    (menu :allocation :class
 	 :initform ( [ "Debug target" ede-debug-target
-		       (and ede-object
-			    (obj-of-class-p ede-object ede-target)) ]
+		       (ede-buffer-belongs-to-target-p) ]
 		     [ "Run target" ede-run-target
-		       (and ede-object
-			    (obj-of-class-p ede-object ede-target)) ]
+		       (ede-buffer-belongs-to-target-p) ]
 		     )
 	 :documentation "Menu specialized to this type of target."
 	 :accessor ede-object-menu)
@@ -158,7 +156,7 @@ and querying them will cause the actual project to get loaded.")
 	    :documentation "Sub projects controlled by this project.
 For Automake based projects, each directory is treated as a project.")
    (targets :initarg :targets
-	    :type list
+	    :type ede-target-list
 	    :custom (repeat (object :objectcreatefcn ede-new-target-custom))
 	    :label "Local Targets"
 	    :group (targets)
@@ -267,9 +265,7 @@ and target specific elements such as build variables.")
 	  "--"
 	  [ "Rescan Project Files" ede-rescan-toplevel t ]
 	  [ "Edit Projectfile" ede-edit-file-target
-	    (and ede-object
-		 (or (listp ede-object)
-		     (not (obj-of-class-p ede-object ede-project)))) ]
+	    (ede-buffer-belongs-to-project-p) ]
 	  )
 	 :documentation "Menu specialized to this type of target."
 	 :accessor ede-object-menu)
@@ -287,11 +283,7 @@ All specific project types must derive from this project."
 		     (list 'pf
 			   (list 'if (list 'obj-of-class-p
 					   obj 'ede-target)
-				 ;; @todo -I think I can change
-				 ;; this to not need ede-load-project-file
-				 ;; but I'm not sure how to test well.
-				 (list 'ede-load-project-file
-				       (list 'oref obj 'path))
+				 (list 'ede-target-parent obj)
 				 obj))
 		     '(dbka (get-file-buffer (oref pf file))))
 	      '(if (not dbka) (find-file (oref pf file))
@@ -422,7 +414,7 @@ Specifying PARENT is useful for sub-sub projects relative to the root project."
 
 ;;;###autoload
 (defmethod ede-name ((this ede-target))
-  "Return the name of THIS targt."
+  "Return the name of THIS target."
   (oref this name))
 
 (defmethod ede-target-name ((this ede-target))
@@ -467,8 +459,7 @@ Not all buffers need headers, so return nil if no applicable."
 (defmethod ede-buffer-header-file ((this ede-target) buffer)
   "There are no default header files in EDE.
 Do a quick check to see if there is a Header tag in this buffer."
-  (save-excursion
-    (set-buffer buffer)
+  (with-current-buffer buffer
     (if (re-search-forward "::Header:: \\([a-zA-Z0-9.]+\\)" nil t)
 	(buffer-substring-no-properties (match-beginning 1)
 					(match-end 1))
@@ -496,8 +487,7 @@ Some projects may have multiple documentation files, so return a list."
 (defmethod ede-buffer-documentation-files ((this ede-target) buffer)
   "Check for some documentation files for THIS.
 Also do a quick check to see if there is a Documentation tag in this BUFFER."
-  (save-excursion
-    (set-buffer buffer)
+  (with-current-buffer buffer
     (if (re-search-forward "::Documentation:: \\([a-zA-Z0-9.]+\\)" nil t)
 	(buffer-substring-no-properties (match-beginning 1)
 					(match-end 1))
@@ -506,7 +496,7 @@ Also do a quick check to see if there is a Documentation tag in this BUFFER."
 	(ede-buffer-documentation-files cp (current-buffer))))))
 
 (defmethod ede-documentation ((this ede-project))
-  "Return a list of files that provides documentation.
+  "Return a list of files that provide documentation.
 Documentation is not for object THIS, but is provided by THIS for other
 files in the project."
   (let ((targ (oref this targets))
@@ -521,7 +511,7 @@ files in the project."
     found))
 
 (defmethod ede-documentation ((this ede-target))
-  "Return a list of files that provides documentation.
+  "Return a list of files that provide documentation.
 Documentation is not for object THIS, but is provided by THIS for other
 files in the project."
   nil)
@@ -571,7 +561,7 @@ files in the project."
 ;;
 ;;;###autoload
 (defun ede-adebug-project ()
-  "Run adebug against the current ede project.
+  "Run adebug against the current EDE project.
 Display the results as a debug list."
   (interactive)
   (require 'data-debug)
@@ -582,7 +572,7 @@ Display the results as a debug list."
 
 ;;;###autoload
 (defun ede-adebug-project-parent ()
-  "Run adebug against the current ede parent project.
+  "Run adebug against the current EDE parent project.
 Display the results as a debug list."
   (interactive)
   (require 'data-debug)
@@ -593,7 +583,7 @@ Display the results as a debug list."
 
 ;;;###autoload
 (defun ede-adebug-project-root ()
-  "Run adebug against the current ede parent project.
+  "Run adebug against the current EDE parent project.
 Display the results as a debug list."
   (interactive)
   (require 'data-debug)
@@ -605,7 +595,7 @@ Display the results as a debug list."
 
 ;;; Hooks & Autoloads
 ;;
-;;  These let us watch various activities, and respond apropriatly.
+;;  These let us watch various activities, and respond appropriately.
 
 (add-hook 'edebug-setup-hook
 	  (lambda ()

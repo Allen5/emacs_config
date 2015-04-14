@@ -2,8 +2,8 @@
 
 ;;; Copyright (C) 2007 Daniel Debertin (debertin@gmail.com)
 
-;; Author: Eric M. Ludlam <zappo@projectile.siege-engine.com>
-;; Created: 2009-08-30 09:51:01-0400
+;; Author: Allen <allen@ubuntu.ubuntu-domain>
+;; Created: 2015-04-14 21:22:56+0800
 ;; Keywords: syntax
 ;; X-RCS: $Id$
 

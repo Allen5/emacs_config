@@ -19,6 +19,8 @@
 ;;according os type load diff config
 (if (string-equal system-type "windows-nt")
     (require 'w32-fullscreen))
+(if (string-equal system-type "gnu/linux")
+    (require 'linux-fullscreen))
 
 ;;fix chinese encoding
 (require 'unicad)
