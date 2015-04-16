@@ -21,6 +21,8 @@
     (require 'w32-fullscreen))
 (if (string-equal system-type "gnu/linux")
     (require 'linux-fullscreen))
+(if (string-equal system-type "darwin")
+    (require 'darwin-fullscreen))
 
 ;;fix chinese encoding
 (require 'unicad)

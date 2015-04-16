@@ -53,5 +53,9 @@ yspkg5eua0il/
 .xsession-errors.old
 examples.desktop
 *.deb
+.m2/
+.zcompdump
+.zsh_history
+.zshrc
 Download/
 Work/
