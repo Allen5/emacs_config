@@ -75,7 +75,7 @@ Work/
 .viminfo
 .vimrc
 .wakatime.cfg
-".zcompdump-wuwenqing\347\232\204MacBook Pro (2)-5.0.5"
+*.zcompdump-wuwenqing*
 .zsh-update
 .zshrc-e
 .zshrc.pre-oh-my-zsh

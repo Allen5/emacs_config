@@ -1,19 +1,22 @@
 
 ;; ----- smex-history -----
 (
+ load-file
+ reload-file
  shell
+ git-log
+ git-status
  c++-mode
  git-commit-all
- reload-file
- cd
- 5x5
- arp
 )
 
 ;; ----- smex-data -----
 (
- (reload-file . 1)
+ (reload-file . 5)
  (git-commit-all . 1)
  (c++-mode . 1)
- (shell . 1)
+ (shell . 5)
+ (git-status . 1)
+ (git-log . 1)
+ (load-file . 2)
 )
