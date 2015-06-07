@@ -12,7 +12,7 @@
 (add-to-list 'load-path (expand-file-name "~/.emacs.d/plugins/cedet/speedbar"))
 (add-to-list 'load-path (expand-file-name "~/.emacs.d/plugins/cedet/srecode"))
 (add-to-list 'load-path (expand-file-name "~/.emacs.d/plugins/xcscope"))
-
+(add-to-list 'load-path (expand-file-name "~/.emacs.d/plugins/color-theme"))
 
 ;;load common config
 (require 'common)
@@ -78,3 +78,10 @@
 
 ;;load auto-complete configure
 (require 'ac-setting)
+
+;;load color theme
+(require 'color-theme)
+(color-theme-initialize)
+
+;;load package setting
+(require 'pkg-setting)
