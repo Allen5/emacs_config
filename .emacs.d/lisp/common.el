@@ -44,6 +44,9 @@
     (setq default-directory "G:\\projects")
   (setq default-directory "~/work"))
 
+;;set question
+(fset 'yes-or-no-p 'y-or-n-p)
+
 ;;not create backup files
 (setq make-backup-files nil)
 
