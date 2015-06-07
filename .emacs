@@ -85,3 +85,9 @@
 
 ;;load package setting
 (require 'pkg-setting)
+
+;;load helm setting
+(require 'helm-setting)
+
+;;load window switch and move setting
+(require 'window-switch-setting)
