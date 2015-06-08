@@ -167,4 +167,7 @@
 (setq powerline-color1 "grey22")
 (setq powerline-color2 "grey40")
 
+;;start ido mode
+(ido-mode 1)
+
 (provide 'common)

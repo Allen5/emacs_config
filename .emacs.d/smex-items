@@ -2,22 +2,46 @@
 ;; ----- smex-history -----
 (
  load-file
+ helm-mode
+ helm-moccur-mode-goto-line
  shell
- package-install
- c++-mode
- git-status
- reload-file
- git-log
+ helm-imenu
+ helm-buffers-list
+ goto-line
 )
 
 ;; ----- smex-data -----
 (
- (reload-file . 5)
- (git-commit-all . 1)
+ (reload-file . 8)
+ (git-commit-all . 9)
  (c++-mode . 2)
- (shell . 9)
- (git-status . 4)
+ (shell . 15)
+ (git-status . 13)
  (git-log . 1)
- (load-file . 20)
- (package-install . 3)
+ (load-file . 61)
+ (package-install . 14)
+ (git-add-new . 1)
+ (color-theme-select . 2)
+ (package-list-packages . 1)
+ (helm-M-x . 2)
+ (helm-c-buffer-help . 1)
+ (helm-buffers-list . 48)
+ (helm-find-files . 13)
+ (helm-find . 21)
+ (tabbar-mode . 2)
+ (tabbar-forward . 2)
+ (tabbar-backward . 1)
+ (ido-mode . 1)
+ (imenu . 1)
+ (git-diff-head . 1)
+ (git-diff-all-head . 6)
+ (git-branch . 1)
+ (git-create-branch . 2)
+ (git-switch-branch . 4)
+ (git-merge . 3)
+ (goto-line . 30)
+ (iso-gtex2iso . 1)
+ (helm-imenu . 1)
+ (helm-mode . 4)
+ (helm-moccur-mode-goto-line . 1)
 )
