@@ -170,4 +170,9 @@
 ;;start ido mode
 (ido-mode 1)
 
+;;configure flychecker
+(add-to-list 'load-path (expand-file-name "~/.emacs.d/plugins/flychecker"))
+(add-hook 'after-init-hook #'global-flycheck-mode)
+;;(add-hook 'after-init-hook 'global-flycheck-mode)
+
 (provide 'common)

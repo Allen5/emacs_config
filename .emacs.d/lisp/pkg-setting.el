@@ -1,3 +1,4 @@
+
 (require 'package)
 
 ;; 添加软件来源地址

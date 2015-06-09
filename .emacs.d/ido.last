@@ -2,67 +2,99 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/Users/wuwenqing/work/imserver/im-server/src/db_proxy_server/" . "business/")
  ("/Users/wuwenqing/work/GarvinEngine/src/" . "util/")
  ("/Users/wuwenqing/work/GarvinEngine/" . "src/")
  ("/Users/wuwenqing/work/" . "GarvinEngine/")
  ("/Users/wuwenqing/.emacs.d/elpa/" . "helm/")
  ("/Users/wuwenqing/Work/imserver/im-server/src/db_proxy_server/" . "business/")
  ("/Users/wuwenqing/Work/" . "imserver/")
- ("/Users/wuwenqing/Work/imserver/im-server/" . "src/")
+ ("/Users/wuwenqing/Work/imserver/im-server/" . "doc/")
  ("/Users/wuwenqing/Work/imserver/" . "im-server/")
- ("/Users/wuwenqing/Work/imserver/im-server/src/" . "http_msg_server/")
+ ("/Users/wuwenqing/Work/imserver/im-server/src/" . "base/")
  ("/Users/" . "wuwenqing/")
  ("/" . "Users/")
  ("/Users/wuwenqing/" . ".emacs.d/")
  ("/Users/wuwenqing/.emacs.d/" . "lisp/")
- ("/Users/wuwenqing/work/imserver/im-server/src/" . "msg_server/")
+ ("/Users/wuwenqing/work/imserver/im-server/src/" . "http_msg_server/")
  ("/Users/wuwenqing/work/imserver/im-server/" . "src/")
  ("/Users/wuwenqing/work/imserver/" . "im-server/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/Users/wuwenqing/.emacs.d/lisp/"
- "/Users/wuwenqing/.emacs.d/plugins/global-6.4/"
- "/Users/wuwenqing/work/GarvinEngine/src/util/"
- "/Users/wuwenqing/"
- "/Users/wuwenqing/Work/imserver/im-server/src/db_proxy_server/"
- "/Users/wuwenqing/Work/imserver/im-server/src/db_proxy_server/business/"
- "/Users/wuwenqing/Work/imserver/im-server/src/msg_server/"
- "/Users/wuwenqing/Work/imserver/im-server/src/http_msg_server/"
  "/Users/wuwenqing/Work/imserver/im-server/src/base/"
- "/Users/wuwenqing/Documents/"
+ "/Users/wuwenqing/Work/imserver/im-server/src/db_proxy_server/business/"
  "/Users/wuwenqing/Work/imserver/im-server/doc/"
  "/Users/wuwenqing/Work/imserver/im-server/src/route_server/"
+ "/Users/wuwenqing/Work/imserver/im-server/src/msg_server/"
+ "/Users/wuwenqing/Work/imserver/im-server/src/db_proxy_server/"
+ "/Users/wuwenqing/work/GarvinEngine/src/util/"
+ "/Users/wuwenqing/.emacs.d/lisp/"
  "/Users/wuwenqing/.emacs.d/"
+ "/Users/wuwenqing/work/imserver/im-server/src/http_msg_server/"
+ "/Users/wuwenqing/work/imserver/im-server/src/base/"
+ "/Users/wuwenqing/work/imserver/im-server/src/db_proxy_server/business/"
+ "/Users/wuwenqing/.emacs.d/plugins/global-6.4/"
+ "/Users/wuwenqing/"
+ "/Users/wuwenqing/Work/imserver/im-server/src/http_msg_server/"
+ "/Users/wuwenqing/Documents/"
  "/Users/wuwenqing/work/imserver/im-server/src/msg_server/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "helm-setting.el"
- "INSTALL"
- "argsParsor.cpp"
- ".emacs"
- "HandlerMap.cpp"
- "UserAction.cpp"
- "MsgConn.cpp"
- "HttpPdu.cpp"
- "UtilPdu.cpp"
- "GroupModel.cpp"
+ "ImPduClient.cpp"
+ "ImPduClient.h"
+ "MessageModel.cpp"
+ "MessageContent.cpp"
+ "服务端版本发布.md"
+ "IM后端架构.graffle"
+ "RouteConn.cpp"
+ "RelationShip.cpp"
+ "FriendShip.cpp"
+ "ImPduServer.cpp"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/wuwenqing/.emacs.d/lisp/" (21877 33141 0 0) "window-switch-setting.el" "web-mode.el" "wakatime-mode.el" "w32-fullscreen.el" "unicad.el" "smex.el" "pkg-setting.el" "php-mode.el" "multi-web-mode.el" "markdown-mode.el" "linux-fullscreen.el" "keybind.el" "helm-setting.el" "darwin-fullscreen.el" "common.el" "cmake-mode.el" "ac-setting.el" ".#helm-setting.el" "../" "./")
+ ("/Users/wuwenqing/Work/imserver/im-server/src/base/" (21877 54237 0 0) "UtilPdu.h" "UtilPdu.cpp" "util.h" "util.cpp" "TokenValidator.h" "TokenValidator.cpp" "ThreadPool.h" "ThreadPool.cpp" "Thread.h" "Thread.cpp" "SysUserConf.h" "SysUserConf.cpp" "ServInfo.h" "ServInfo.cpp" "SensitiveWordFilter.h" "SensitiveWordFilter.cpp" "ostype.h" "netlib.h" "netlib.cpp" "Makefile" "Log.h" "Log.cpp" "Lock.h" "Lock.cpp" "jsoncpp/" "ImPduServer.h" "ImPduServer.cpp" "ImPduGroup.h" "ImPduGroup.cpp" "ImPduClient.h" "ImPduClient.cpp" "ImPduBase.h" "ImPduBase.cpp" "impdu.h" "imconn.h" "imconn.cpp" "EventDispatch.h" "EventDispatch.cpp" "ConfigFileReader.h" "ConfigFileReader.cpp" "BaseSocket.h" "BaseSocket.cpp" "atomic.h" "../" "./")
 
- ("/Users/wuwenqing/.emacs.d/plugins/" (21877 33176 0 0) "xcscope/" "w32toggletitle.exe" "powerline/" "git-emacs/" "color-theme/" "cedet/" "auto-complete-suite/" "../" "./")
+ ("/Users/wuwenqing/work/imserver/im-server/src/msg_server/" (21877 43175 0 0) "RouteServConn.h" "RouteServConn.cpp" "ReportServConn.h" "ReportServConn.cpp" "policy.xml" "msgserver.conf" "MsgFilterServConn.h" "MsgFilterServConn.cpp" "MsgConn.h" "MsgConn.cpp" "msg_server.cpp" "Makefile" "LoginServConn.h" "LoginServConn.cpp" "ImUser.h" "ImUser.cpp" "GroupServConn.h" "GroupServConn.cpp" "GroupChat.h" "GroupChat.cpp" "DBServConn.h" "DBServConn.cpp" "AttachData.h" "AttachData.cpp" "../" "./")
 
- ("/Users/wuwenqing/.emacs.d/" (21877 29821 0 0) "smex-items" "plugins/" "lisp/" "ido.last" "elpa/" "auto-save-list/" "ac-comphist.dat" "../" "./")
+ ("/Users/wuwenqing/" (21877 52788 0 0) "Work/" "Sites/" "Public/" "Pictures/" "OpenSource/" "Music/" "Movies/" "Library/" "emacs_config/" "Downloads/" "Documents/" "Desktop/" "bin/" ".zshrc.pre-oh-my-zsh" ".zshrc-e" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump-wuwenqing的MacBook Pro (3)-5.0.5" ".zcompdump-wuwenqing的MacBook Pro (2)-5.0.5" ".wakatime.log" ".wakatime.db" ".wakatime.cfg" ".vimrc" ".viminfo" ".vim/" ".Trash/" ".subversion/" ".ssh/" ".semanticdb/" ".python-eggs/" ".oh-my-zsh/" ".npm/" ".mysql_history" ".lldb/" ".lesshst" ".gradle/" ".gitignore" ".gitconfig" ".git/" ".emacs.d/" ".emacs" ".DS_Store" ".CFUserTextEncoding" ".bashrc" ".bash_history" ".:F89AA64" "../" "./")
+
+ ("/Users/wuwenqing/work/imserver/im-server/src/db_proxy_server/business/" (21877 52899 0 0) "UserAction.h" "UserAction.cpp" "User.h" "User.cpp" "SystemMessage.h" "SystemMessage.cpp" "SysPushModule.h" "SysPushModule.cpp" "Statistic.h" "Statistic.cpp" "Shop.h" "Shop.cpp" "RelationShip.h" "RelationShip.cpp" "Push.h" "Push.cpp" "MessageModel.h" "MessageModel.cpp" "MessageCounter.h" "MessageCounter.cpp" "MessageContent.h" "MessageContent.cpp" "Login.h" "Login.cpp" "GroupModel.h" "GroupModel.cpp" "GroupMessageModel.h" "GroupMessageModel.cpp" "GroupAction.h" "GroupAction.cpp" "FriendShip.h" "FriendShip.cpp" "Common.h" "AudioModel.h" "AudioModel.cpp" "../" "./")
+
+ ("/Users/wuwenqing/work/imserver/im-server/src/base/" (21877 48591 0 0) "UtilPdu.h" "UtilPdu.cpp" "util.h" "util.cpp" "TokenValidator.h" "TokenValidator.cpp" "ThreadPool.h" "ThreadPool.cpp" "Thread.h" "Thread.cpp" "SysUserConf.h" "SysUserConf.cpp" "ServInfo.h" "ServInfo.cpp" "SensitiveWordFilter.h" "SensitiveWordFilter.cpp" "ostype.h" "netlib.h" "netlib.cpp" "Makefile" "Log.h" "Log.cpp" "Lock.h" "Lock.cpp" "jsoncpp/" "ImPduServer.h" "ImPduServer.cpp" "ImPduGroup.h" "ImPduGroup.cpp" "ImPduClient.h" "ImPduClient.cpp" "ImPduBase.h" "ImPduBase.cpp" "impdu.h" "imconn.h" "imconn.cpp" "EventDispatch.h" "EventDispatch.cpp" "ConfigFileReader.h" "ConfigFileReader.cpp" "BaseSocket.h" "BaseSocket.cpp" "atomic.h" "../" "./")
+
+ ("/Users/wuwenqing/Work/imserver/im-server/src/route_server/" (21877 50435 0 0) "routeserver.conf" "RouteConn.h" "RouteConn.cpp" "route_server.cpp" "Makefile" "../" "./")
+
+ ("/Users/wuwenqing/Work/imserver/im-server/src/db_proxy_server/business/" (21877 52899 0 0) "UserAction.h" "UserAction.cpp" "User.h" "User.cpp" "SystemMessage.h" "SystemMessage.cpp" "SysPushModule.h" "SysPushModule.cpp" "Statistic.h" "Statistic.cpp" "Shop.h" "Shop.cpp" "RelationShip.h" "RelationShip.cpp" "Push.h" "Push.cpp" "MessageModel.h" "MessageModel.cpp" "MessageCounter.h" "MessageCounter.cpp" "MessageContent.h" "MessageContent.cpp" "Login.h" "Login.cpp" "GroupModel.h" "GroupModel.cpp" "GroupMessageModel.h" "GroupMessageModel.cpp" "GroupAction.h" "GroupAction.cpp" "FriendShip.h" "FriendShip.cpp" "Common.h" "AudioModel.h" "AudioModel.cpp" "../" "./")
+
+ ("/Users/wuwenqing/Work/imserver/im-server/src/msg_server/" (21877 43175 0 0) "RouteServConn.h" "RouteServConn.cpp" "ReportServConn.h" "ReportServConn.cpp" "policy.xml" "msgserver.conf" "MsgFilterServConn.h" "MsgFilterServConn.cpp" "MsgConn.h" "MsgConn.cpp" "msg_server.cpp" "Makefile" "LoginServConn.h" "LoginServConn.cpp" "ImUser.h" "ImUser.cpp" "GroupServConn.h" "GroupServConn.cpp" "GroupChat.h" "GroupChat.cpp" "DBServConn.h" "DBServConn.cpp" "AttachData.h" "AttachData.cpp" "../" "./")
+
+ ("/Users/wuwenqing/Work/imserver/im-server/src/db_proxy_server/" (21877 40909 0 0) "README" "ProxyTask.h" "ProxyTask.cpp" "ProxyConn.h" "ProxyConn.cpp" "MoguHttp.h" "MoguHttp.cpp" "Makefile" "HandlerMap.h" "HandlerMap.cpp" "dbproxyserver.conf" "DBPool.h" "DBPool.cpp" "db_proxy_server.cpp" "CachePool.h" "CachePool.cpp" "business/" "../" "./")
+
+ ("/Users/wuwenqing/Work/imserver/im-server/doc/" (21877 40151 0 0) "蘑菇街IM服务器架构.docx" "服务端版本发布.md" "log.txt" "IM后端架构图.jpg" "IM后端架构.graffle" "../" "./")
+
+ ("/Users/wuwenqing/Work/imserver/im-server/src/http_msg_server/" (21877 40151 0 0) "WebPage.h" "WebPage.cpp" "RouteServConn.h" "RouteServConn.cpp" "ReportServConn.h" "ReportServConn.cpp" "Makefile" "LoginServConn.h" "LoginServConn.cpp" "LoginCount.h" "LoginCount.cpp" "jsonxx.h" "jsonxx.cpp" "HttpUser.h" "HttpUser.cpp" "HttpQuery.h" "HttpQuery.cpp" "HttpPdu.h" "HttpPdu.cpp" "HttpParserWrapper.h" "HttpParserWrapper.cpp" "httpmsgserver.conf" "HttpConn.h" "HttpConn.cpp" "http_parser.h" "http_parser.cpp" "http_msg_server.cpp" "DBServConn.h" "DBServConn.cpp" "../" "./")
+
+ ("/Users/wuwenqing/work/imserver/im-server/src/http_msg_server/" (21877 40151 0 0) "WebPage.h" "WebPage.cpp" "RouteServConn.h" "RouteServConn.cpp" "ReportServConn.h" "ReportServConn.cpp" "Makefile" "LoginServConn.h" "LoginServConn.cpp" "LoginCount.h" "LoginCount.cpp" "jsonxx.h" "jsonxx.cpp" "HttpUser.h" "HttpUser.cpp" "HttpQuery.h" "HttpQuery.cpp" "HttpPdu.h" "HttpPdu.cpp" "HttpParserWrapper.h" "HttpParserWrapper.cpp" "httpmsgserver.conf" "HttpConn.h" "HttpConn.cpp" "http_parser.h" "http_parser.cpp" "http_msg_server.cpp" "DBServConn.h" "DBServConn.cpp" "../" "./")
+
+ ("/Users/wuwenqing/work/GarvinEngine/src/util/" (21877 39749 0 0) "xstring.cpp" "logger.cpp" "datetime.cpp" "argsParsor.cpp" "../" "./")
+
+ ("/Users/wuwenqing/.emacs.d/lisp/" (21877 39490 0 0) "window-switch-setting.el" "web-mode.el" "wakatime-mode.el" "w32-fullscreen.el" "unicad.el" "smex.el" "pkg-setting.el" "php-mode.el" "multi-web-mode.el" "markdown-mode.el" "linux-fullscreen.el" "keybind.el" "helm-setting.el" "darwin-fullscreen.el" "common.el" "cmake-mode.el" "ac-setting.el" "../" "./")
+
+ ("/Users/wuwenqing/.emacs.d/plugins/" (21877 39647 0 0) "xcscope/" "w32toggletitle.exe" "powerline/" "git-emacs/" "flycheck/" "color-theme/" "cedet/" "auto-complete-suite/" "../" "./")
+
+ ("/Users/wuwenqing/.emacs.d/plugins/flycheck/" (21877 39274 0 0) "flycheck.info" "flycheck.el" "flycheck-pkg.el" "flycheck-ert.el" "fdl-1.3.info" "dir" "../" "./")
+
+ ("/Users/wuwenqing/.emacs.d/" (21877 39458 0 0) "smex-items" "plugins/" "lisp/" "ido.last" "elpa/" "auto-save-list/" "ac-comphist.dat" "../" "./")
+
+ ("/Users/wuwenqing/work/imserver/im-server/src/db_proxy_server/" (21870 18642 0 0) "README" "ProxyTask.h" "ProxyTask.cpp" "ProxyConn.h" "ProxyConn.cpp" "MoguHttp.h" "MoguHttp.cpp" "Makefile" "HandlerMap.h" "HandlerMap.cpp" "dbproxyserver.conf" "DBPool.h" "DBPool.cpp" "db_proxy_server.cpp" "CachePool.h" "CachePool.cpp" "business/" "../" "./")
 
  ("/Users/wuwenqing/.emacs.d/plugins/global-6.4/" (21776 54115 0 0) "vim74-gtags-cscope.patch" "THANKS" "script/" "reconf.sh" "README.PATCHES" "README" "plugin-factory/" "NEWS" "missing" "Makefile.in" "Makefile.am" "mainpage.dox" "m4/" "ltmain.sh" "LICENSE" "libutil/" "libparser/" "libltdl/" "libglibc/" "libdb/" "jquery/" "install-sh" "INSTALL" "icons/" "htags-server/" "htags-refkit/" "htags/" "head.in" "gtags.vim" "gtags.pl" "gtags.el" "gtags.conf.in" "gtags.conf" "gtags-cscope.vim" "gtags-cscope/" "gtags/" "gozilla/" "globash/" "global/" "geco.rc" "FAQ" "elvis.rc" "elvis-2.2_0.patch" "Doxyfile.in" "DONORS" "doc/" "depcomp" "ctags-5.8.patch" "COPYING.LIB" "COPYING" "convert.pl" "configure.ac" "configure" "config.sub" "config.guess" "config-h.in" "compile" "ChangeLog" "BUILD_TOOLS" "BOKIN_MODEL_FAQ" "BOKIN_MODEL" "AUTHORS" "aclocal.m4" "acinclude.m4" "../" "./")
-
- ("/Users/wuwenqing/work/GarvinEngine/src/util/" (21857 59036 0 0) "xstring.cpp" "logger.cpp" "datetime.cpp" "argsParsor.cpp" "../" "./")
 
  ("/Users/wuwenqing/work/GarvinEngine/src/" (21834 8826 0 0) "util/" "network.bak/" "database/" "base/" "../" "./")
 
@@ -71,24 +103,6 @@
  ("/Users/wuwenqing/.emacs.d/elpa/helm/" (21876 25162 0 0) "helm.elc" "helm.el" "helm-utils.elc" "helm-utils.el" "helm-tags.elc" "helm-tags.el" "helm-sys.elc" "helm-sys.el" "helm-source.elc" "helm-source.el" "helm-semantic.elc" "helm-semantic.el" "helm-ring.elc" "helm-ring.el" "helm-regexp.elc" "helm-regexp.el" "helm-plugin.elc" "helm-plugin.el" "helm-pkg.el" "helm-org.elc" "helm-org.el" "helm-net.elc" "helm-net.el" "helm-mode.elc" "helm-mode.el" "helm-misc.elc" "helm-misc.el" "helm-match-plugin.elc" "helm-match-plugin.el" "helm-man.elc" "helm-man.el" "helm-locate.elc" "helm-locate.el" "helm-info.elc" "helm-info.el" "helm-imenu.elc" "helm-imenu.el" "helm-id-utils.elc" "helm-id-utils.el" "helm-help.elc" "helm-help.el" "helm-grep.elc" "helm-grep.el" "helm-font.elc" "helm-font.el" "helm-files.elc" "helm-files.el" "helm-external.elc" "helm-external.el" "helm-eval.elc" "helm-eval.el" "helm-eshell.elc" "helm-eshell.el" "helm-elscreen.elc" "helm-elscreen.el" "helm-elisp.elc" "helm-elisp.el" "helm-elisp-package.elc" "helm-elisp-package.el" "helm-dabbrev.elc" "helm-dabbrev.el" "helm-config.elc" "helm-config.el" "helm-command.elc" "helm-command.el" "helm-color.elc" "helm-color.el" "helm-buffers.elc" "helm-buffers.el" "helm-bookmark.elc" "helm-bookmark.el" "helm-autoloads.el" "helm-apt.elc" "helm-apt.el" "helm-aliases.elc" "helm-aliases.el" "helm-adaptive.elc" "helm-adaptive.el" "emacs-helm.sh" "../" "./")
 
  ("/Users/wuwenqing/.emacs.d/elpa/" (21876 28917 0 0) "win-switch/" "tabbar/" "helm/" "atom-dark-theme/" "async-20150529.529/" "archives/" "../" "./")
-
- ("/Users/wuwenqing/" (21877 28933 0 0) "Work/" "Sites/" "Public/" "Pictures/" "OpenSource/" "Music/" "Movies/" "Library/" "emacs_config/" "Downloads/" "Documents/" "Desktop/" "bin/" ".zshrc.pre-oh-my-zsh" ".zshrc-e" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump-wuwenqing的MacBook Pro (3)-5.0.5" ".zcompdump-wuwenqing的MacBook Pro (2)-5.0.5" ".wakatime.log" ".wakatime.db" ".wakatime.cfg" ".vimrc" ".viminfo" ".vim/" ".Trash/" ".subversion/" ".ssh/" ".semanticdb/" ".python-eggs/" ".oh-my-zsh/" ".npm/" ".mysql_history" ".lldb/" ".lesshst" ".gradle/" ".gitignore" ".gitconfig" ".git/" ".emacs.d/" ".emacs" ".DS_Store" ".CFUserTextEncoding" ".bashrc" ".bash_history" ".:F89AA64" "../" "./")
-
- ("/Users/wuwenqing/Work/imserver/im-server/src/db_proxy_server/business/" (21877 25524 0 0) "UserAction.h" "UserAction.cpp" "User.h" "User.cpp" "SystemMessage.h" "SystemMessage.cpp" "SysPushModule.h" "SysPushModule.cpp" "Statistic.h" "Statistic.cpp" "Shop.h" "Shop.cpp" "RelationShip.h" "RelationShip.cpp" "Push.h" "Push.cpp" "MessageModel.h" "MessageModel.cpp" "MessageCounter.h" "MessageCounter.cpp" "MessageContent.h" "MessageContent.cpp" "Login.h" "Login.cpp" "GroupModel.h" "GroupModel.cpp" "GroupMessageModel.h" "GroupMessageModel.cpp" "GroupAction.h" "GroupAction.cpp" "FriendShip.h" "FriendShip.cpp" "Common.h" "AudioModel.h" "AudioModel.cpp" "../" "./")
-
- ("/Users/wuwenqing/Work/imserver/im-server/src/msg_server/" (21877 21928 0 0) "RouteServConn.h" "RouteServConn.cpp" "ReportServConn.h" "ReportServConn.cpp" "policy.xml" "msgserver.conf" "MsgFilterServConn.h" "MsgFilterServConn.cpp" "MsgConn.h" "MsgConn.cpp" "msg_server.cpp" "Makefile" "LoginServConn.h" "LoginServConn.cpp" "ImUser.h" "ImUser.cpp" "GroupServConn.h" "GroupServConn.cpp" "GroupChat.h" "GroupChat.cpp" "DBServConn.h" "DBServConn.cpp" "AttachData.h" "AttachData.cpp" "../" "./")
-
- ("/Users/wuwenqing/Work/imserver/im-server/src/http_msg_server/" (21877 21385 0 0) "WebPage.h" "WebPage.cpp" "RouteServConn.h" "RouteServConn.cpp" "ReportServConn.h" "ReportServConn.cpp" "Makefile" "LoginServConn.h" "LoginServConn.cpp" "LoginCount.h" "LoginCount.cpp" "jsonxx.h" "jsonxx.cpp" "HttpUser.h" "HttpUser.cpp" "HttpQuery.h" "HttpQuery.cpp" "HttpPdu.h" "HttpPdu.cpp" "HttpParserWrapper.h" "HttpParserWrapper.cpp" "httpmsgserver.conf" "HttpConn.h" "HttpConn.cpp" "http_parser.h" "http_parser.cpp" "http_msg_server.cpp" "DBServConn.h" "DBServConn.cpp" "../" "./")
-
- ("/Users/wuwenqing/work/imserver/im-server/src/msg_server/" (21877 19020 0 0) "RouteServConn.o" "RouteServConn.h" "RouteServConn.cpp" "ReportServConn.o" "ReportServConn.h" "ReportServConn.cpp" "policy.xml" "msgserver.conf" "MsgFilterServConn.o" "MsgFilterServConn.h" "MsgFilterServConn.cpp" "MsgConn.o" "MsgConn.h" "MsgConn.cpp" "msg_server.cpp" "Makefile" "LoginServConn.o" "LoginServConn.h" "LoginServConn.cpp" "ImUser.o" "ImUser.h" "ImUser.cpp" "GroupServConn.o" "GroupServConn.h" "GroupServConn.cpp" "GroupChat.o" "GroupChat.h" "GroupChat.cpp" "DBServConn.o" "DBServConn.h" "DBServConn.cpp" "AttachData.o" "AttachData.h" "AttachData.cpp" "../" "./")
-
- ("/Users/wuwenqing/Work/imserver/im-server/src/route_server/" (21877 19020 0 0) "routeserver.conf" "RouteConn.h" "RouteConn.cpp" "route_server.cpp" "Makefile" "../" "./")
-
- ("/Users/wuwenqing/Work/imserver/im-server/doc/" (21877 19020 0 0) "蘑菇街IM服务器架构.docx" "服务端版本发布.md" "log.txt" "IM后端架构图.jpg" "IM后端架构.graffle" "../" "./")
-
- ("/Users/wuwenqing/Work/imserver/im-server/src/base/" (21877 20870 0 0) "UtilPdu.h" "UtilPdu.cpp" "util.h" "util.cpp" "TokenValidator.h" "TokenValidator.cpp" "ThreadPool.h" "ThreadPool.cpp" "Thread.h" "Thread.cpp" "SysUserConf.h" "SysUserConf.cpp" "ServInfo.h" "ServInfo.cpp" "SensitiveWordFilter.h" "SensitiveWordFilter.cpp" "ostype.h" "netlib.h" "netlib.cpp" "Makefile" "Log.h" "Log.cpp" "Lock.h" "Lock.cpp" "jsoncpp/" "ImPduServer.h" "ImPduServer.cpp" "ImPduGroup.h" "ImPduGroup.cpp" "ImPduClient.h" "ImPduClient.cpp" "ImPduBase.h" "ImPduBase.cpp" "impdu.h" "imconn.h" "imconn.cpp" "EventDispatch.h" "EventDispatch.cpp" "ConfigFileReader.h" "ConfigFileReader.cpp" "BaseSocket.h" "BaseSocket.cpp" "atomic.h" "../" "./")
-
- ("/Users/wuwenqing/Work/imserver/im-server/src/db_proxy_server/" (21870 18642 0 0) "README" "ProxyTask.h" "ProxyTask.cpp" "ProxyConn.h" "ProxyConn.cpp" "MoguHttp.h" "MoguHttp.cpp" "Makefile" "HandlerMap.h" "HandlerMap.cpp" "dbproxyserver.conf" "DBPool.h" "DBPool.cpp" "db_proxy_server.cpp" "CachePool.h" "CachePool.cpp" "business/" "../" "./")
 
  ("/Users/wuwenqing/Documents/" (21877 8689 0 0) "分表需求.md" "Parallels/" "O'Reilly 深入浅出之[Head First PHP.&.MySQL](中文版).pdf" "lifetips服务器架构设计.md" "im-server服务器逻辑剖析.md" "Hadoop实战.PDF" "h5_712_版本协议.md" "Google_Cpp_Style_guide_CN.pdf" "GoodByeDealer流程与预算.pdf" "GoodByeDealer流程与预算.pages" "GoodByeDealer 重构评估方案.pdf" "GoodByeDealer 重构评估方案.pages" "GarvinEngine模块划分.xmind" "emoji_表情乱码解决方案.md" "C++沉思录.pdf" "app711协议更改.pdf" "app711协议更改.md" "app711功能梳理.md" "app711.sql" "1.md" ".localized" ".DS_Store" "../" "./")
 
