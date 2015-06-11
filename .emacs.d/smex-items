@@ -1,31 +1,31 @@
 
 ;; ----- smex-history -----
 (
+ load-file
+ shell
+ helm-M-x
  helm-imenu
- helm-buffers-list
- ede
- helm-find
- imenu
- git-merge
- git-switch-branch
+ package-install
+ git-tag
+ git-pull-ff-only
 )
 
 ;; ----- smex-data -----
 (
- (reload-file . 8)
- (git-commit-all . 12)
+ (reload-file . 9)
+ (git-commit-all . 33)
  (c++-mode . 2)
- (shell . 20)
+ (shell . 30)
  (git-status . 15)
  (git-log . 2)
- (load-file . 64)
- (package-install . 25)
+ (load-file . 75)
+ (package-install . 26)
  (git-add-new . 1)
  (color-theme-select . 2)
  (package-list-packages . 1)
- (helm-M-x . 2)
+ (helm-M-x . 3)
  (helm-c-buffer-help . 1)
- (helm-buffers-list . 55)
+ (helm-buffers-list . 66)
  (helm-find-files . 13)
  (helm-find . 27)
  (tabbar-mode . 2)
@@ -33,15 +33,15 @@
  (tabbar-backward . 1)
  (ido-mode . 1)
  (imenu . 3)
- (git-diff-head . 1)
- (git-diff-all-head . 10)
+ (git-diff-head . 2)
+ (git-diff-all-head . 23)
  (git-branch . 1)
  (git-create-branch . 2)
- (git-switch-branch . 11)
- (git-merge . 6)
- (goto-line . 30)
+ (git-switch-branch . 25)
+ (git-merge . 8)
+ (goto-line . 150)
  (iso-gtex2iso . 1)
- (helm-imenu . 73)
+ (helm-imenu . 214)
  (helm-mode . 10)
  (helm-moccur-mode-goto-line . 1)
  (git-add . 3)
@@ -50,4 +50,11 @@
  (flymake-mode . 1)
  (flyspell-mode . 1)
  (ede . 1)
+ (git-diff-baseline . 1)
+ (hl-line-mode . 2)
+ (helm-semantic-or-imenu . 1)
+ (helm-grep-mode . 2)
+ (ac-mouse-1 . 2)
+ (git-pull-ff-only . 1)
+ (git-tag . 2)
 )
