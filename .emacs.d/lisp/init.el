@@ -44,3 +44,6 @@
 ;;加载markdown-mode
 (load "init-markdown-mode.el")
 
+;;加载c,c++ mode配置
+(load "init-cpp-mode.el")
+

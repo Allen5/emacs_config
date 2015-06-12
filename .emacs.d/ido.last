@@ -23,9 +23,9 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/wuwenqing/"
  "/Users/wuwenqing/.emacs.d/lisp/"
  "/Users/wuwenqing/.emacs.d/elpa/plugins/"
- "/Users/wuwenqing/"
  "/Users/wuwenqing/.emacs.d/elpa/mode/"
  "/Users/wuwenqing/.emacs.d/lisp/funcs/"
  "/Users/wuwenqing/work/imserver/im-server/src/http_msg_server/"
@@ -52,6 +52,8 @@
 
 ;; ----- ido-work-file-list -----
 (
+ ".gitignore"
+ ".gitconfig"
  "common.el"
  "init-ui.el"
  "init.el"
@@ -60,17 +62,15 @@
  "init-self-funcs.el"
  ".emacs"
  "init-markdown-mode.el"
- "init-cmake-mode.el"
- "init-php-mode.el"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/Users/wuwenqing/" (21881 46663 0 0) "Work/" "Sites/" "Public/" "Pictures/" "OpenSource/" "Music/" "Movies/" "Library/" "emacs_config/" "Downloads/" "Documents/" "Desktop/" "bin/" "Applications (Parallels)/" "Applications/" ".zshrc.pre-oh-my-zsh" ".zshrc-e" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump-wuwenqing的MacBook Pro (3)-5.0.5" ".zcompdump-wuwenqing的MacBook Pro (2)-5.0.5" ".wakatime.log" ".wakatime.db" ".wakatime.cfg" ".vimrc" ".viminfo" ".vim/" ".Trash/" ".subversion/" ".ssh/" ".semanticdb/" ".python-eggs/" ".oh-my-zsh/" ".npm/" ".mysql_history" ".lldb/" ".lesshst" ".gradle/" ".gitignore" ".gitconfig" ".git/" ".emacs.d/" ".emacs" ".DS_Store" ".CFUserTextEncoding" ".bashrc" ".bash_history" ".:F89AA64" "../" "./")
+
  ("/Users/wuwenqing/.emacs.d/lisp/" (21881 45018 0 0) "init.el~" "init.el" "init-wakatime.el" "init-ui.el~" "init-ui.el" "init-self-kdb.el" "init-self-funcs.el" "init-php-mode.el" "init-package.el" "init-markdown-mode.el" "init-ido.el" "init-helm.el" "init-git.el" "init-cmake-mode.el" "funcs/" "common.el~" "common.el" "ac-setting.el" ".#common.el" "../" "./")
 
  ("/Users/wuwenqing/.emacs.d/" (21881 44944 0 0) "smex-items" "plugins/" "lisp/" "ido.last" "elpa/" "auto-save-list/" "ac-comphist.dat" "../" "./")
-
- ("/Users/wuwenqing/" (21881 44597 0 0) "Work/" "Sites/" "Public/" "Pictures/" "OpenSource/" "Music/" "Movies/" "Library/" "emacs_config/" "Downloads/" "Documents/" "Desktop/" "bin/" "Applications (Parallels)/" "Applications/" ".zshrc.pre-oh-my-zsh" ".zshrc-e" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump-wuwenqing的MacBook Pro (3)-5.0.5" ".zcompdump-wuwenqing的MacBook Pro (2)-5.0.5" ".wakatime.log" ".wakatime.db" ".wakatime.cfg" ".vimrc" ".viminfo" ".vim/" ".Trash/" ".subversion/" ".ssh/" ".semanticdb/" ".python-eggs/" ".oh-my-zsh/" ".npm/" ".mysql_history" ".lldb/" ".lesshst" ".gradle/" ".gitignore" ".gitconfig" ".git/" ".emacs.d/" ".emacs" ".DS_Store" ".CFUserTextEncoding" ".bashrc" ".bash_history" ".:F89AA64" "../" "./")
 
  ("/Users/wuwenqing/.emacs.d/elpa/plugins/" (21881 43005 0 0) "w32toggletitle.exe" "w32-fullscreen.el" "unicad.el" "smex.el" "powerline/" "linux-fullscreen.el" "helm/" "git-emacs/" "darwin-fullscreen.el" "../" "./")
 

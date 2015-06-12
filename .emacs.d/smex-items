@@ -1,21 +1,21 @@
 
 ;; ----- smex-history -----
 (
- load-file
+ git-commit-all
  shell
+ load-file
  helm-M-x
  helm-imenu
  package-install
  git-tag
- git-pull-ff-only
 )
 
 ;; ----- smex-data -----
 (
  (reload-file . 9)
- (git-commit-all . 33)
+ (git-commit-all . 34)
  (c++-mode . 2)
- (shell . 30)
+ (shell . 31)
  (git-status . 15)
  (git-log . 2)
  (load-file . 75)
