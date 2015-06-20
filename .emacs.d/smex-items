@@ -1,28 +1,28 @@
 
 ;; ----- smex-history -----
 (
- git-commit-all
- shell
+ comment-region
  load-file
- helm-M-x
+ indent-region
+ indent-to-column
  helm-imenu
- package-install
- git-tag
+ uncomment-region
+ git-commit-all
 )
 
 ;; ----- smex-data -----
 (
- (reload-file . 9)
- (git-commit-all . 34)
+ (reload-file . 10)
+ (git-commit-all . 125)
  (c++-mode . 2)
- (shell . 31)
- (git-status . 15)
- (git-log . 2)
- (load-file . 75)
- (package-install . 26)
- (git-add-new . 1)
+ (shell . 84)
+ (git-status . 23)
+ (git-log . 4)
+ (load-file . 104)
+ (package-install . 37)
+ (git-add-new . 4)
  (color-theme-select . 2)
- (package-list-packages . 1)
+ (package-list-packages . 2)
  (helm-M-x . 3)
  (helm-c-buffer-help . 1)
  (helm-buffers-list . 66)
@@ -33,28 +33,49 @@
  (tabbar-backward . 1)
  (ido-mode . 1)
  (imenu . 3)
- (git-diff-head . 2)
- (git-diff-all-head . 23)
+ (git-diff-head . 4)
+ (git-diff-all-head . 57)
  (git-branch . 1)
  (git-create-branch . 2)
- (git-switch-branch . 25)
- (git-merge . 8)
- (goto-line . 150)
+ (git-switch-branch . 31)
+ (git-merge . 10)
+ (goto-line . 275)
  (iso-gtex2iso . 1)
- (helm-imenu . 214)
+ (helm-imenu . 440)
  (helm-mode . 10)
  (helm-moccur-mode-goto-line . 1)
- (git-add . 3)
+ (git-add . 4)
  (flymake-start-syntax-check . 2)
  (git-checkout . 2)
  (flymake-mode . 1)
  (flyspell-mode . 1)
  (ede . 1)
- (git-diff-baseline . 1)
+ (git-diff-baseline . 2)
  (hl-line-mode . 2)
  (helm-semantic-or-imenu . 1)
  (helm-grep-mode . 2)
  (ac-mouse-1 . 2)
- (git-pull-ff-only . 1)
- (git-tag . 2)
+ (git-pull-ff-only . 2)
+ (git-tag . 4)
+ (git-commit . 2)
+ (helm-google-suggest . 1)
+ (google-set-c-style . 1)
+ (shell-mode . 4)
+ (highlight-changes-previous-change . 2)
+ (git-revert . 1)
+ (git-reset . 1)
+ (load-theme . 9)
+ (ansi-color-for-comint-mode-on . 1)
+ (ansi-term . 3)
+ (term . 1)
+ (comment-region . 14)
+ (git-log-view-menu . 1)
+ (battery . 2)
+ (uncomment-region . 22)
+ (speedbar . 1)
+ (tumme . 1)
+ (moo-jump-local . 3)
+ (vc-git-stash-apply . 1)
+ (indent-to-column . 3)
+ (indent-region . 2)
 )

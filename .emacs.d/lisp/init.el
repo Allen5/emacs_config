@@ -8,12 +8,6 @@
 ;;加载ui设置
 (load "init-ui.el")
 
-;;加载自定义函数设置
-(load "init-self-funcs.el")
-
-;;加载键绑定设置
-(load "init-self-kdb.el")
-
 ;;加载package配置
 (load "init-package.el")
 
@@ -25,6 +19,8 @@
 
 ;;加载helm设置
 (load "init-helm.el")
+;;加载helm-gtags设置
+(load "init-helm-gtags.el")
 
 ;;加载smex设置
 (load "~/.emacs.d/elpa/plugins/smex.el")
@@ -47,3 +43,11 @@
 ;;加载c,c++ mode配置
 (load "init-cpp-mode.el")
 
+;;加载web-mode配置
+(load "init-web-mode.el")
+
+;;加载自定义函数设置，永远在倒数第二个
+(load "init-self-funcs.el")
+
+;;加载键绑定设置，永远在最后一个
+(load "init-self-kdb.el")
