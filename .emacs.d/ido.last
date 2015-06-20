@@ -31,7 +31,7 @@
  ("/Users/wuwenqing/Work/imserver/im-server/src/" . "base/")
  ("/Users/" . "wuwenqing/")
  ("/" . "Users/")
- ("/Users/wuwenqing/" . ".emacs.d/")
+ ("/Users/wuwenqing/" . "Work/")
  ("/Users/wuwenqing/.emacs.d/" . "lisp/")
  ("/Users/wuwenqing/work/imserver/im-server/src/" . "route_server/")
  ("/Users/wuwenqing/work/imserver/im-server/" . "src/")
@@ -40,10 +40,10 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "/Users/wuwenqing/.emacs.d/lisp/"
- "/Users/wuwenqing/work/practise/ex/"
  "/Users/wuwenqing/Work/practise/ex/"
+ "/Users/wuwenqing/.emacs.d/lisp/"
  "/Users/wuwenqing/"
+ "/Users/wuwenqing/work/practise/ex/"
  "/Users/wuwenqing/work/imserver/im-server/src/route_server/"
  "/Users/wuwenqing/work/im-server-new/src/http_protocol_proxy/"
  "/Users/wuwenqing/work/im-server-new/src/biz_base/"
@@ -94,8 +94,8 @@
 
 ;; ----- ido-work-file-list -----
 (
- "init-cpp-mode.el"
  "ex01.cpp"
+ "init-cpp-mode.el"
  ".emacs"
  "RouteConn.cpp"
  "HttpPdu.cpp"
@@ -108,15 +108,15 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/wuwenqing/.emacs.d/" (21892 60491 0 0) "smex-items" "plugins/" "lisp/" "ido.last" "elpa/" "auto-save-list/" "ac-comphist.dat" "../" "./")
+ ("/Users/wuwenqing/Work/practise/ex/" (21892 61588 0 0) "ex05.cpp" "ex04.cpp~" "ex04.cpp" "ex04" "ex03.cpp" "ex02.cpp" "ex01.cpp" "a.out" ".#ex01.cpp" "../" "./")
 
- ("/Users/wuwenqing/work/practise/ex/" (21892 60511 0 0) "ex05.cpp" "ex04.cpp~" "ex04.cpp" "ex04" "ex03.cpp" "ex02.cpp" "ex01.cpp" "a.out" ".#ex01.cpp" "../" "./")
+ ("/Users/wuwenqing/.emacs.d/lisp/" (21892 61669 0 0) "init.el" "init-web-mode.el" "init-wakatime.el" "init-ui.el" "init-self-kdb.el" "init-self-funcs.el" "init-php-mode.el" "init-package.el" "init-markdown-mode.el" "init-ido.el" "init-helm.el" "init-helm-gtags.el" "init-git.el" "init-cpp-mode.el" "init-cmake-mode.el" "funcs/" "common.el" "ac-setting.el" "../" "./")
 
- ("/Users/wuwenqing/Work/practise/ex/" (21892 60441 0 0) "ex05.cpp" "ex04.cpp~" "ex04.cpp" "ex04" "ex03.cpp" "ex02.cpp" "ex01.cpp" "a.out" "../" "./")
+ ("/Users/wuwenqing/.emacs.d/" (21892 61556 0 0) "smex-items" "plugins/" "lisp/" "ido.last" "elpa/" "auto-save-list/" "ac-comphist.dat" "../" "./")
 
- ("/Users/wuwenqing/.emacs.d/lisp/" (21892 60474 0 0) "init.el" "init-web-mode.el" "init-wakatime.el" "init-ui.el" "init-self-kdb.el" "init-self-funcs.el" "init-php-mode.el" "init-package.el" "init-markdown-mode.el" "init-ido.el" "init-helm.el" "init-helm-gtags.el" "init-git.el" "init-cpp-mode.el" "init-cmake-mode.el" "funcs/" "common.el" "ac-setting.el" "../" "./")
+ ("/Users/wuwenqing/work/practise/ex/" (21892 61588 0 0) "ex05.cpp" "ex04.cpp~" "ex04.cpp" "ex04" "ex03.cpp" "ex02.cpp" "ex01.cpp" "a.out" ".#ex01.cpp" "../" "./")
 
- ("/Users/wuwenqing/" (21892 12119 0 0) "Work/" "Sites/" "Public/" "Pictures/" "OpenSource/" "Music/" "Movies/" "Library/" "emacs_config/" "Downloads/" "Documents/" "Desktop/" "bin/" "Applications (Parallels)/" "Applications/" ".zshrc.pre-oh-my-zsh" ".zshrc-e" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump-wuwenqing的MacBook Pro (3)-5.0.5" ".zcompdump-wuwenqing的MacBook Pro (2)-5.0.5" ".wakatime.log" ".wakatime.db" ".wakatime.cfg" ".vimrc" ".viminfo" ".vim/" ".Trash/" ".subversion/" ".ssh/" ".semanticdb/" ".python-eggs/" ".oh-my-zsh/" ".npm/" ".mysql_history" ".lldb/" ".lesshst" ".gradle/" ".gitignore" ".gitconfig" ".git/" ".emacs.d/" ".emacs" ".DS_Store" ".CFUserTextEncoding" ".bashrc" ".bash_history" ".:F89AA64" "../" "./")
+ ("/Users/wuwenqing/" (21892 61384 0 0) "Work/" "Sites/" "Public/" "Pictures/" "OpenSource/" "Music/" "Movies/" "Library/" "emacs_config/" "Downloads/" "Documents/" "Desktop/" "bin/" "Applications (Parallels)/" "Applications/" ".zshrc.pre-oh-my-zsh" ".zshrc-e" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump-wuwenqing的MacBook Pro (3)-5.0.5" ".zcompdump-wuwenqing的MacBook Pro (2)-5.0.5" ".wakatime.log" ".wakatime.db" ".wakatime.cfg" ".vimrc" ".viminfo" ".vim/" ".Trash/" ".subversion/" ".ssh/" ".semanticdb/" ".python-eggs/" ".oh-my-zsh/" ".npm/" ".mysql_history" ".lldb/" ".lesshst" ".gradle/" ".gitignore" ".gitconfig" ".git/" ".emacs.d/" ".emacs" ".DS_Store" ".CFUserTextEncoding" ".bashrc" ".bash_history" ".:F89AA64" "../" "./")
 
  ("/Users/wuwenqing/work/imserver/im-server/src/route_server/" (21892 58105 0 0) "routeserver.conf" "RouteConn.o" "RouteConn.h" "RouteConn.cpp" "route_server.cpp" "Makefile" "../" "./")
 

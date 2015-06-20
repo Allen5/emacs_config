@@ -2,16 +2,17 @@
 ;;c,cpp mode的配置
 
 ;;设置c,c++ mode下，tab不格式化，且一个tab 4个空格
+;;不插入tab，因为tab是邪恶的，各个平台或工具显示的定义不一致
 (add-hook 'c-mode-hook
           '(lambda ()
              (setq tab-width 4)
-             (setq indent-tabs-mode t)
+             (setq indent-tabs-mode nil)
              (setq c-basic-offset 4)))
 
 (add-hook 'c++-mode-hook
           '(lambda ()
              (setq tab-width 4)
-             (setq indent-tabs-mode t)
+             (setq indent-tabs-mode nil)
              (setq c-basic-offset 4)))
 
 ;;项目使用unix模式，与google-c-style模式不符合，所以暂时屏蔽

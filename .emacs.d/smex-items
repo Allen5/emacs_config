@@ -1,24 +1,24 @@
 
 ;; ----- smex-history -----
 (
- comment-region
  load-file
  indent-region
- indent-to-column
- helm-imenu
- uncomment-region
  git-commit-all
+ shell
+ git-status
+ comment-region
+ indent-to-column
 )
 
 ;; ----- smex-data -----
 (
  (reload-file . 10)
- (git-commit-all . 125)
+ (git-commit-all . 126)
  (c++-mode . 2)
- (shell . 84)
- (git-status . 23)
+ (shell . 85)
+ (git-status . 24)
  (git-log . 4)
- (load-file . 104)
+ (load-file . 105)
  (package-install . 37)
  (git-add-new . 4)
  (color-theme-select . 2)
@@ -77,5 +77,5 @@
  (moo-jump-local . 3)
  (vc-git-stash-apply . 1)
  (indent-to-column . 3)
- (indent-region . 2)
+ (indent-region . 3)
 )
