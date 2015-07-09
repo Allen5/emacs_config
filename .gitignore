@@ -92,4 +92,8 @@ bin/
 emacs_config/
 Sites/
 Applications
-Applications (Parallels)/
+Applications (Parallels)/.atom/.apm/_locks/atom-message-panel-066a044abffd4b60.lock
+.atom/
+.composer
+eide-*
+custom.el

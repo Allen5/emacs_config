@@ -46,6 +46,9 @@
 ;;加载web-mode配置
 (load "init-web-mode.el")
 
+;;加载erlang-mode配置
+(load "init-erlang-mode.el")
+
 ;;加载自定义函数设置，永远在倒数第二个
 (load "init-self-funcs.el")
 

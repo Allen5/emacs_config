@@ -36,4 +36,15 @@
 ;;启动最大化函数调用
 (fullscreen-maximize-frame)
 
+;; 设置默认的tab模式为空格，且为4格
+(setq-default indent-tabs-mode t)       ;默认不用空格替代TAB
+(setq default-tab-width 4)              ;设置TAB默认的宽度
+(dolist (hook (list                     ;设置用空格替代TAB的模式
+               'c-mode-hook
+               'c++-mode-hook
+			   'php-mode
+			   'html-mode
+               ))
+  (add-hook hook '(lambda () (setq indent-tabs-mode nil))))
+
 
