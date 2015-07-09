@@ -2,6 +2,7 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/Users/wuwenqing/.emacs.d/elpa/themes/" . "solarized/")
  ("/Users/wuwenqing/OpenSource/purcell_emacs/" . "lisp/")
  ("/Users/wuwenqing/work/GarvinEngine/include/" . "util/")
  ("/Users/wuwenqing/Work/GarvinEngine/include/" . "base/")
@@ -11,7 +12,7 @@
  ("/Users/wuwenqing/Work/GoodByeDealer/public/webadmin/assets/plugins/" . "gritter/")
  ("/Users/wuwenqing/Work/GoodByeDealer/public/webadmin/assets/" . "plugins/")
  ("/Users/wuwenqing/Work/GoodByeDealer/public/webadmin/" . "assets/")
- ("/Users/wuwenqing/Work/GoodByeDealer/public/" . "javascripts/")
+ ("/Users/wuwenqing/Work/GoodByeDealer/public/" . "webadmin/")
  ("/Users/wuwenqing/Work/GoodByeDealer/public/javascripts/" . "network/")
  ("/Users/wuwenqing/work/GoodByeDealer/app/config/" . "common/")
  ("/Users/wuwenqing/Downloads/" . "easyDB/")
@@ -20,7 +21,7 @@
  ("/Users/wuwenqing/work/GoodByeDealer/app/" . "controllers/")
  ("/Users/wuwenqing/work/GoodByeDealer/" . "app/")
  ("/Users/wuwenqing/Work/GoodByeDealer/app/models/" . "core/")
- ("/Users/wuwenqing/Work/GoodByeDealer/" . "app/")
+ ("/Users/wuwenqing/Work/GoodByeDealer/" . "public/")
  ("/Users/wuwenqing/Work/GoodByeDealer/app/" . "config/")
  ("/Users/wuwenqing/work/GoodByDealer/app/" . "controllers/")
  ("/Users/wuwenqing/Work/practise/store/" . "config/")
@@ -60,9 +61,9 @@
  ("/Users/wuwenqing/work/GarvinEngine/src/" . "util/")
  ("/Users/wuwenqing/work/GarvinEngine/" . "include/")
  ("/Users/wuwenqing/work/" . "practise/")
- ("/Users/wuwenqing/.emacs.d/elpa/" . "plugins/")
+ ("/Users/wuwenqing/.emacs.d/elpa/" . "themes/")
  ("/Users/wuwenqing/Work/imserver/im-server/src/db_proxy_server/" . "business/")
- ("/Users/wuwenqing/Work/" . "imserver/")
+ ("/Users/wuwenqing/Work/" . "im-server-new/")
  ("/Users/wuwenqing/Work/imserver/im-server/" . "doc/")
  ("/Users/wuwenqing/Work/imserver/" . "im-server/")
  ("/Users/wuwenqing/Work/imserver/im-server/src/" . "db_proxy_server/")
@@ -78,11 +79,18 @@
 ;; ----- ido-work-directory-list -----
 (
  "/Users/wuwenqing/.emacs.d/lisp/"
- "/Users/wuwenqing/OpenSource/purcell_emacs/lisp/"
+ "/Users/wuwenqing/.emacs.d/elpa/themes/solarized/"
  "/Users/wuwenqing/"
+ "/Users/wuwenqing/Work/im-server-new/src/logic_server_buddy/"
+ "/Users/wuwenqing/.emacs.d/elpa/themes/atom-dark/"
+ "/Users/wuwenqing/.emacs.d/elpa/themes/molokai/"
+ "/Users/wuwenqing/.emacs.d/elpa/themes/molokai-theme/"
+ "/Users/wuwenqing/.emacs.d/elpa/themes/atom-dark-theme/"
+ "/Users/wuwenqing/Work/im-server-new/doc/"
+ "/Users/wuwenqing/Work/GoodByeDealer/public/webadmin/"
+ "/Users/wuwenqing/OpenSource/purcell_emacs/lisp/"
  "/Users/wuwenqing/OpenSource/purcell_emacs/"
  "/Users/wuwenqing/Work/im-server-new/src/biz_server_general/"
- "/Users/wuwenqing/Work/im-server-new/src/logic_server_buddy/"
  "/Users/wuwenqing/Work/im-server-new/src/logic_server_message/"
  "/Users/wuwenqing/Work/im-server-new/src/biz_base/"
  "/Users/wuwenqing/Work/im-server-new/src/tcp_protocol_proxy/"
@@ -120,34 +128,47 @@
  "/Users/wuwenqing/Work/practise/invo/public/"
  "/Users/wuwenqing/Work/GoodByeDealer/public/"
  "/Users/wuwenqing/Work/GoodByeDealer/"
- "/Users/wuwenqing/Work/GoodByeDealer/source/goodbyedealer_old/"
- "/Users/wuwenqing/Work/GoodByeDealer/public/webadmin/"
- "/Users/wuwenqing/Work/GoodByeDealer/public/webadmin/assets/plugins/gritter/js/"
- "/Users/wuwenqing/Work/GoodByeDealer/public/webadmin/assets/plugins/gritter/css/"
- "/Users/wuwenqing/Work/GoodByeDealer/public/webadmin/assets/js/"
- "/Users/wuwenqing/Work/GoodByeDealer/app/views/"
- "/Users/wuwenqing/Work/GoodByeDealer/doc/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "init.el"
- "init-utils.el"
- "init-compat.el"
+ "common.el"
+ "init-ui.el"
+ "solarized-definitions.el"
+ "solarized-theme.el"
  "custom.el"
- "init-benchmarking.el"
- "LICENSE"
- ".emacs"
- "test-startup.sh"
- "GeneralBiz.cpp"
+ "color-theme-solarized.el"
  "BuddyLogic.cpp"
+ "atom-dark-theme.el"
+ "color-theme-molokai.el"
+ ".emacs"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/wuwenqing/.emacs.d/lisp/" (21918 35002 0 0) "init.el" "init-web-mode.el" "init-wakatime.el" "init-utils.el" "init-ui.el" "init-self-kdb.el" "init-self-funcs.el" "init-php-mode.el" "init-package.el" "init-markdown-mode.el" "init-ido.el" "init-helm.el" "init-helm-gtags.el" "init-git.el" "init-erlang-mode.el" "init-cpp-mode.el" "init-compat.el" "init-cmake-mode.el" "init-benchmarking.el" "funcs/" "common.el" "ac-setting.el" "../" "./")
+ ("/Users/wuwenqing/.emacs.d/lisp/" (21918 38975 0 0) "init.el" "init-web-mode.el" "init-wakatime.el" "init-utils.el" "init-ui.el" "init-self-kdb.el" "init-self-funcs.el" "init-php-mode.el" "init-package.el" "init-markdown-mode.el" "init-ido.el" "init-helm.el" "init-helm-gtags.el" "init-git.el" "init-erlang-mode.el" "init-cpp-mode.el" "init-compat.el" "init-cmake-mode.el" "init-benchmarking.el" "funcs/" "common.el" "ac-setting.el" "../" "./")
 
- ("/Users/wuwenqing/" (21918 35133 0 0) "Work/" "Sites/" "Public/" "Pictures/" "OpenSource/" "Music/" "Movies/" "Library/" "Downloads/" "Documents/" "Desktop/" "custom.el" "bin/" "Applications (Parallels)/" "Applications/" ".zshrc.pre-oh-my-zsh" ".zshrc-e" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump-wuwenqing的MacBook Pro (3)-5.0.5" ".zcompdump-wuwenqing的MacBook Pro (2)-5.0.5" ".wakatime.log" ".wakatime.db" ".wakatime.cfg" ".vimrc" ".viminfo" ".vim/" ".Trash/" ".subversion/" ".ssh/" ".semanticdb/" ".python-eggs/" ".profile" ".oh-my-zsh/" ".npm/" ".mysql_history" ".local/" ".lldb/" ".lesshst" ".gradle/" ".gitignore" ".gitconfig" ".git/" ".emacs.d/" ".emacs" ".DS_Store" ".config/" ".composer/" ".CFUserTextEncoding" ".bashrc" ".bash_history" ".atom/" ".:F89AA64" "../" "./")
+ ("/Users/wuwenqing/.emacs.d/" (21918 38870 0 0) "smex-items" "plugins/" "lisp/" "ido.last" "elpa/" "eide/" "custom.el" "auto-save-list/" "ac-comphist.dat" "../" "./")
+
+ ("/Users/wuwenqing/.emacs.d/elpa/themes/" (21918 38382 0 0) "solarized/" "molokai/" "atom-dark/" "../" "./")
+
+ ("/Users/wuwenqing/" (21918 38602 0 0) "Work/" "Sites/" "Public/" "Pictures/" "OpenSource/" "Music/" "Movies/" "Library/" "Downloads/" "Documents/" "Desktop/" "custom.el" "bin/" "Applications/" ".zshrc.pre-oh-my-zsh" ".zshrc-e" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump-wuwenqing的MacBook Pro (3)-5.0.5" ".zcompdump-wuwenqing的MacBook Pro (2)-5.0.5" ".wakatime.log" ".wakatime.db" ".wakatime.cfg" ".vimrc" ".viminfo" ".vim/" ".Trash/" ".subversion/" ".ssh/" ".semanticdb/" ".python-eggs/" ".profile" ".oh-my-zsh/" ".npm/" ".mysql_history" ".local/" ".lldb/" ".lesshst" ".gradle/" ".gitignore" ".gitconfig" ".git/" ".emacs.d/" ".emacs" ".DS_Store" ".config/" ".composer/" ".CFUserTextEncoding" ".bashrc" ".bash_history" ".atom/" ".:F89AA64" "../" "./")
+
+ ("/Users/wuwenqing/.emacs.d/elpa/themes/atom-dark/" (21918 36906 0 0) "atom-dark-theme.elc" "atom-dark-theme.el" "atom-dark-theme-pkg.elc" "atom-dark-theme-pkg.el" "atom-dark-theme-autoloads.el" "../" "./")
+
+ ("/Users/wuwenqing/.emacs.d/elpa/themes/molokai/" (21918 37248 0 0) "color-theme-molokai.elc" "color-theme-molokai.el" "color-theme-molokai-pkg.elc" "color-theme-molokai-pkg.el" "color-theme-molokai-autoloads.el" "../" "./")
+
+ ("/Users/wuwenqing/.emacs.d/elpa/" (21918 37427 0 0) "win-switch/" "themes/" "plugins/" "mode/" "eide-2.1.0/" "async/" "archives/" "../" "./")
+
+ ("/Users/wuwenqing/.emacs.d/elpa/plugins/" (21918 38027 0 0) "w32toggletitle.exe" "w32-fullscreen.el" "unicad.el" "smex.el" "powerline/" "linux-fullscreen.el" "helm-gtags/" "helm/" "google-c-style/" "git-emacs/" "function-args/" "doxymacs/" "darwin-fullscreen.el" "company/" "color-theme-6.6.0/" "../" "./")
+
+ ("/Users/wuwenqing/.emacs.d/elpa/plugins/color-theme-6.6.0/" (17529 43612 0 0) "themes/" "README" "Makefile.defs" "Makefile" "HACKING" "COPYING" "configure-stamp" "color-theme.el" "color-theme-autoloads.in" "color-theme-autoloads.elc" "color-theme-autoloads.el" "ChangeLog" "build-stamp" "BUGS" "AUTHORS" "../" "./")
+
+ ("/Users/wuwenqing/.emacs.d/elpa/themes/solarized/" (21900 835 0 0) "solarized-theme.el" "solarized-definitions.el" "README.md" "makepkg.sh" "Makefile" "LICENSE" "ert-tests/" "color-theme-solarized.el" "color-theme-solarized-pkg.el" ".travis.yml" ".gitignore" "../" "./")
+
+ ("/Users/wuwenqing/.emacs.d/elpa/themes/molokai-theme/" (21918 37248 0 0) "color-theme-molokai.elc" "color-theme-molokai.el" "color-theme-molokai-pkg.elc" "color-theme-molokai-pkg.el" "color-theme-molokai-autoloads.el" "../" "./")
+
+ ("/Users/wuwenqing/.emacs.d/elpa/themes/atom-dark-theme/" (21918 36906 0 0) "atom-dark-theme.elc" "atom-dark-theme.el" "atom-dark-theme-pkg.elc" "atom-dark-theme-pkg.el" "atom-dark-theme-autoloads.el" "../" "./")
 
  ("/Users/wuwenqing/Work/GoodByeDealer/source/" (21913 1368 0 0) "goodbyedealer_old/" ".DS_Store" "../" "./")
 
@@ -178,8 +199,6 @@
  ("/Users/wuwenqing/Work/im-server-new/src/biz_server_general/" (21918 24361 0 0) "Makefile" "GeneralBiz.o" "GeneralBiz.h" "GeneralBiz.cpp" "BizServerGeneral.conf" "biz_server_general.o" "biz_server_general.cpp" "../" "./")
 
  ("/Users/wuwenqing/OpenSource/purcell_emacs/" (21918 33773 0 0) "test-startup.sh" "site-lisp/" "README.md" "lisp/" "LICENSE" "init.el" ".travis.yml" ".gitignore" ".agignore" "../" "./")
-
- ("/Users/wuwenqing/.emacs.d/" (21918 33399 0 0) "smex-items" "plugins/" "lisp/" "ido.last" "elpa/" "eide-2.1.0.tar" "eide/" "auto-save-list/" "ac-comphist.dat" "../" "./")
 
  ("/Users/wuwenqing/OpenSource/" (21918 32110 0 0) "webadmin-template/" "typhoon-blade/" "purcell_emacs/" "phalcon-tools/" "hiredis/" "gtest-1.7.0/" "cphalcon/" ".emacs.d/" ".DS_Store" "../" "./")
 
@@ -326,24 +345,6 @@
  ("/Users/wuwenqing/Work/GoodByeDealer/public/webadmin/assets/js/" (21912 59994 0 0) "form-editable.min.js" "dashboard.min.js" "dashboard-v2.min.js" "apps.min.js" "../" "./")
 
  ("/Users/wuwenqing/Work/GoodByeDealer/" (21912 51145 0 0) "source/" "public/" "doc/" "app.php" "app/" ".htaccess" ".git/" ".DS_Store" "../" "./")
-
- ("/Users/wuwenqing/Work/GoodByeDealer/doc/" (21911 56133 0 0) "Timeline.markdown" "GoodByeDealer网站重构流程.markdown" "create.sql" "create.spf" "API.md" ".DS_Store" "../" "./")
-
- ("/Users/wuwenqing/work/GoodByeDealer/app/config/common/" (21911 45795 0 0) "error.php" "dbconfig.php" "../" "./")
-
- ("/Users/wuwenqing/Work/GoodByeDealer/public/javascripts/" (21911 53319 0 0) "util/" "network/" "jquery.min.js" "biz/" "../" "./")
-
- ("/Users/wuwenqing/Work/GoodByDealer.bak/" (21884 27088 0 0) "uploads/" "stylesheet/" "pay_result.php" "pay_handle.php" "pay.php" "pay.html" "model/" "loan.html" "javascript/" "index.html" "images/" "doc/" "controller/" "common/" "car.php" ".git/" "../" "./")
-
- ("/Users/wuwenqing/Work/GoodByeDealer/app/util/" (21911 33771 0 0) "Log.php" "EasyDB.php" "../" "./")
-
- ("/Users/wuwenqing/work/mogujie/modules/" (21911 27416 0 0) "yiqifa/" "xhprof/" "wangyi/" "vardumper/" "user/" "upyun/" "unittest/" "umpay/" "ump/" "tencent/" "tablesorter/" "sphinx/" "soap/" "sms_new/" "sinav2/" "sina/" "risk/" "qplus/" "push/" "protobuf/" "predis/" "phpqrcode/" "pchart/" "oauth/" "mandao/" "mailer/" "log4php/" "juan/" "jsonrpc/" "jiankongbao/" "getui/" "excel/" "douban/" "common/" "captcha/" "barcodegen/" "autoloader.php" "alipaynew/" "alipay/" ".DS_Store" "../" "./")
-
- ("/Users/wuwenqing/Downloads/easyDB/" (21911 28895 0 0) "README" "EasyDB.php" ".DS_Store" "../" "./")
-
- ("/Users/wuwenqing/work/GoodByeDealer/app/util/" (21911 33771 0 0) "Log.php" "EasyDB.php" "../" "./")
-
- ("/Users/wuwenqing/.ssh/" (21812 38320 0 0) "known_hosts" "id_rsa.pub" "id_rsa" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----

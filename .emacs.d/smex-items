@@ -1,25 +1,25 @@
 
 ;; ----- smex-history -----
 (
+ load-file
  shell
- reload-file
- goto-line
- helm-imenu
+ package-install
+ locate
+ load-theme
  git-commit-all
- git-log
- git-reset
+ git-status
 )
 
 ;; ----- smex-data -----
 (
  (reload-file . 14)
- (git-commit-all . 318)
+ (git-commit-all . 319)
  (c++-mode . 2)
- (shell . 199)
- (git-status . 40)
+ (shell . 203)
+ (git-status . 48)
  (git-log . 9)
- (load-file . 112)
- (package-install . 41)
+ (load-file . 128)
+ (package-install . 45)
  (git-add-new . 4)
  (color-theme-select . 2)
  (package-list-packages . 2)
@@ -34,7 +34,7 @@
  (ido-mode . 1)
  (imenu . 3)
  (git-diff-head . 7)
- (git-diff-all-head . 78)
+ (git-diff-all-head . 79)
  (git-branch . 3)
  (git-create-branch . 2)
  (git-switch-branch . 36)
@@ -64,7 +64,7 @@
  (highlight-changes-previous-change . 2)
  (git-revert . 1)
  (git-reset . 2)
- (load-theme . 9)
+ (load-theme . 11)
  (ansi-color-for-comint-mode-on . 1)
  (ansi-term . 3)
  (term . 1)
@@ -85,4 +85,6 @@
  (dired . 1)
  (vc-git-stash-show-at-point . 1)
  (gnus-jog-cache . 2)
+ (browse-current-file . 3)
+ (locate . 1)
 )

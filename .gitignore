@@ -97,3 +97,9 @@ Applications (Parallels)/.atom/.apm/_locks/atom-message-panel-066a044abffd4b60.l
 .composer
 eide-*
 custom.el
+.emacs.d/elpa/themes/solarized/.gitignore
+.emacs.d/elpa/themes/solarized/.gitignore
+.emacs.d/elpa/themes/solarized/.gitignore
+.emacs.d/ido.last
+ido.last
+smex-items
