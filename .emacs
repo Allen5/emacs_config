@@ -20,65 +20,102 @@
 ;;启动项配置
 ;;---------------------------------------------------------
 
-;;用户自定义配置文件
-(setq custom-file (expand-file-name "custom.el" user-emacs-directory))
-
 (require 'init-compat);;兼容性函数
 (require 'init-utils);;工具类函数
+(require 'init-site-lisp) ;;在init-package之前初始化这个
+(require 'init-elpa)
+(require 'init-exec-path) ;; 设置可执行路径到 $PATH
 
 ;;---------------------------------------------------------
-;;以下配置需要更改，但目前未做,暂时使用，作为过渡
+;;用户自定义预加载配置
 ;;---------------------------------------------------------
-;;加载基本设置
-(load "common.el")
+(require 'init-preload-local nil t) ;;可不设置
 
-;;加载ui设置
-(load "init-ui.el")
+;;---------------------------------------------------------
+;;package 设定
+;;---------------------------------------------------------
+(require-package 'wgrep)
+(require-package 'project-local-variables)
+(require-package 'diminish)
+(require-package 'scratch)
+(require-package 'mwe-log-commands)
+(require-package 'wakatime-mode)
 
-;;加载package配置
-(load "init-package.el")
+;;--------------------------------------------------------
+;;界面与全局基础特性配置
+;;--------------------------------------------------------
+(require 'init-frame-hooks)
+(require 'init-xterm)
+(require 'init-themes)
+(require 'init-gui-frames)
+(require 'init-dired)
+(require 'init-isearch)
+(require 'init-grep)
+(require 'init-uniquify)
+(require 'init-flycheck)
+(require 'unicad)
 
-;;设置ido-mode
-(load "init-ido.el")
+(require 'init-recentf)
+(require 'init-ido)
+(require 'init-hippie-expand)
+(require 'init-auto-complete)
+(require 'init-windows)
+(require 'init-sessions)
+(require 'init-mmm)
+(require 'init-helm)
+(require 'init-helm-gtags)
 
-;;初始化wakatime
-(load "init-wakatime.el")
+;;TODO: config edit operations here
+(require 'init-editing-utils)
 
-;;加载helm设置
-(load "init-helm.el")
-;;加载helm-gtags设置
-(load "init-helm-gtags.el")
+;;TODO: change git config to magit
+(require 'init-git)
 
-;;加载smex设置
-(load "~/.emacs.d/elpa/plugins/smex.el")
+;;TODO: config compile here
 
-;;加载unicad设置
-(load "~/.emacs.d/elpa/plugins/unicad.el")
+;;load modes
+(require 'init-markdown)
+(require 'init-csv)
+(require 'init-erlang)
+(require 'init-javascript)
+(require 'init-php)
+(require 'init-html)
+(require 'init-css)
+(require 'init-nxml)
+(require 'init-sql)
+(require 'init-haml)
+(require 'init-python-mode)
+(require 'init-cmake)
+(require 'init-cpp)
 
-;;初始化git-emacs配置
-(load "init-git.el")
+(when *spell-check-support-enable*
+ (require 'init-spelling))
 
-;;加载php-mode
-(load "init-php-mode.el")
+(require 'init-misc)
+(require 'init-dash)
+(require 'init-ledger)
 
-;;加载cmake-mode
-(load "init-cmake-mode.el")
+;;额外配置包，无需配置
+(require-package 'gnuplot)
+(require-package 'lua-mode)
+(require-package 'htmlize)
+(require-package 'dsvn)
+(when *is-a-mac*
+  (require-package 'osx-location))
+(require-package 'regex-tool)
 
-;;加载markdown-mode
-(load "init-markdown-mode.el")
 
-;;加载c,c++ mode配置
-(load "init-cpp-mode.el")
+;;---------------------------------------------------------
+;;加载个人配置
+;;---------------------------------------------------------
+(setq custom-file (expand-file-name "lisp/custom.el" user-emacs-directory))
+(load custom-file)
+(require 'init-self-funcs)
 
-;;加载web-mode配置
-(load "init-web-mode.el")
-
-;;加载erlang-mode配置
-(load "init-erlang-mode.el")
-
-;;加载自定义函数设置，永远在倒数第二个
-(load "init-self-funcs.el")
-
-;;加载键绑定设置，永远在最后一个
-(load "init-self-kdb.el")
-
+;;----------------------------------------------------
+;;显示加载时间
+;;----------------------------------------------------
+(add-hook 'after-init-hook
+          (lambda ()
+            (message "init completed in %.2fms"
+                     (sanityinc/time-subtract-millis after-init-time before-init-time))))

@@ -1,24 +1,24 @@
 
 ;; ----- smex-history -----
 (
- load-file
- shell
- package-install
- locate
- load-theme
- git-commit-all
  git-status
+ git-checkout
+ git-log
+ git-commit-all
+ helm-imenu
+ goto-line
+ uncomment-region
 )
 
 ;; ----- smex-data -----
 (
  (reload-file . 14)
- (git-commit-all . 319)
+ (git-commit-all . 322)
  (c++-mode . 2)
- (shell . 203)
- (git-status . 48)
- (git-log . 9)
- (load-file . 128)
+ (shell . 205)
+ (git-status . 51)
+ (git-log . 10)
+ (load-file . 136)
  (package-install . 45)
  (git-add-new . 4)
  (color-theme-select . 2)
@@ -39,14 +39,14 @@
  (git-create-branch . 2)
  (git-switch-branch . 36)
  (git-merge . 10)
- (goto-line . 666)
+ (goto-line . 668)
  (iso-gtex2iso . 1)
- (helm-imenu . 729)
+ (helm-imenu . 736)
  (helm-mode . 10)
  (helm-moccur-mode-goto-line . 1)
  (git-add . 4)
  (flymake-start-syntax-check . 2)
- (git-checkout . 8)
+ (git-checkout . 9)
  (flymake-mode . 1)
  (flyspell-mode . 1)
  (ede . 1)
@@ -71,7 +71,7 @@
  (comment-region . 25)
  (git-log-view-menu . 1)
  (battery . 5)
- (uncomment-region . 24)
+ (uncomment-region . 25)
  (speedbar . 1)
  (tumme . 1)
  (moo-jump-local . 3)

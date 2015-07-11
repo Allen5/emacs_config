@@ -2,7 +2,7 @@
 ;;快捷键设定
 
 ;;开启全屏模式,windows下更好用
-(global-set-key [f11] 'fullscreen-full-frame)
+;;(global-set-key [f11] 'fullscreen-full-frame)
 
 ;;设定 C-x, C-b 操作为打开 helm-buffers-list
 (global-set-key (kbd "C-x C-b") 'helm-buffers-list)

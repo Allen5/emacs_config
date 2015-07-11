@@ -1,6 +1,6 @@
 
 ;;加载helm-gtags
-(load "~/.emacs.d/elpa/plugins/helm-gtags/helm-gtags.el")
+(add-to-list 'load-path (expand-file-name "elpa/plugins/helm-gtags" user-emacs-directory))
 
 (setq
  helm-gtags-ignore-case t
@@ -25,3 +25,6 @@
 (define-key helm-gtags-mode-map (kbd "M-,") 'helm-gtags-pop-stack)
 (define-key helm-gtags-mode-map (kbd "C-c <") 'helm-gtags-previous-history)
 (define-key helm-gtags-mode-map (kbd "C-c >") 'helm-gtags-next-history)
+
+(provide 'init-helm-gtags)
+
