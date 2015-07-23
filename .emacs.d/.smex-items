@@ -1,24 +1,24 @@
 
 ;; ----- smex-history -----
 (
- load-file
- uncomment-region
  shell
- flymake-start-syntax-check
- package-install
- comment-region
- dired
+ goto-line
+ helm-imenu
+ reload-file
+ git-commit-all
+ dark
+ light
 )
 
 ;; ----- smex-data -----
 (
- (reload-file . 14)
- (git-commit-all . 322)
+ (reload-file . 18)
+ (git-commit-all . 358)
  (c++-mode . 2)
- (shell . 214)
- (git-status . 51)
+ (shell . 263)
+ (git-status . 56)
  (git-log . 10)
- (load-file . 198)
+ (load-file . 199)
  (package-install . 57)
  (git-add-new . 4)
  (color-theme-select . 2)
@@ -34,19 +34,19 @@
  (ido-mode . 1)
  (imenu . 3)
  (git-diff-head . 9)
- (git-diff-all-head . 79)
- (git-branch . 3)
- (git-create-branch . 2)
+ (git-diff-all-head . 94)
+ (git-branch . 4)
+ (git-create-branch . 3)
  (git-switch-branch . 36)
- (git-merge . 10)
- (goto-line . 668)
+ (git-merge . 12)
+ (goto-line . 754)
  (iso-gtex2iso . 1)
- (helm-imenu . 737)
+ (helm-imenu . 860)
  (helm-mode . 10)
  (helm-moccur-mode-goto-line . 1)
  (git-add . 4)
  (flymake-start-syntax-check . 3)
- (git-checkout . 9)
+ (git-checkout . 12)
  (flymake-mode . 1)
  (flyspell-mode . 1)
  (ede . 1)
@@ -61,32 +61,39 @@
  (helm-google-suggest . 1)
  (google-set-c-style . 1)
  (shell-mode . 4)
- (highlight-changes-previous-change . 2)
+ (highlight-changes-previous-change . 3)
  (git-revert . 1)
  (git-reset . 2)
  (load-theme . 11)
  (ansi-color-for-comint-mode-on . 1)
- (ansi-term . 3)
+ (ansi-term . 4)
  (term . 1)
- (comment-region . 26)
+ (comment-region . 40)
  (git-log-view-menu . 1)
  (battery . 5)
- (uncomment-region . 26)
+ (uncomment-region . 33)
  (speedbar . 1)
  (tumme . 1)
- (moo-jump-local . 3)
+ (moo-jump-local . 4)
  (vc-git-stash-apply . 1)
  (indent-to-column . 3)
  (indent-region . 3)
- (global-wakatime-mode . 2)
+ (global-wakatime-mode . 3)
  (package-install-file . 1)
  (git-checkout-to-new-branch . 1)
- (occur . 10)
+ (occur . 13)
  (dired . 2)
  (vc-git-stash-show-at-point . 1)
  (gnus-jog-cache . 2)
- (browse-current-file . 3)
+ (browse-current-file . 95)
  (locate . 1)
  (rename-file . 4)
  (git-log-files . 1)
+ (global-flycheck-mode . 1)
+ (setenv . 2)
+ (git-delete-tag . 1)
+ (bovinate . 2)
+ (light . 3)
+ (fa-abort . 2)
+ (dark . 3)
 )

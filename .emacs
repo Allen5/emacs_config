@@ -52,7 +52,7 @@
 (require 'init-isearch)
 (require 'init-grep)
 (require 'init-uniquify)
-(require 'init-flycheck)
+;;(require 'init-flycheck)
 (require 'unicad)
 
 (require 'init-recentf)

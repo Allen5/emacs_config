@@ -103,3 +103,9 @@ custom.el
 .emacs.d/ido.last
 ido.last
 smex-items
+.emacs.d/.emacs.desktop
+.emacs.d/.emacs.desktop.lock
+.emacs.d/.session
+.emacs.d/.smex-items
+.emacs.d/history
+.emacs.d/recentf
