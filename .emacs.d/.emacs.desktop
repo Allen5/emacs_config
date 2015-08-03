@@ -2,176 +2,55 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Thu Jul 23 16:25:56 2015
+;; Created Mon Aug  3 23:30:22 2015
 ;; Desktop file format version 206
 ;; Emacs version 24.5.1
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (21936 42260 323327 0) (desktop . "206") "wuwenqing@wuwenqingdeMacBook-Pro-2.local" nil nil ((((font-backend mac-ct ns) (fontsize . 0) (font . "-*-Menlo-normal-normal-normal-*-16-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 0) (vertical-scroll-bars) (foreground-color . "#839496") (background-color . "#002b36") (line-spacing) (left-fringe . 14) (right-fringe . 16) (menu-bar-lines . 1) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (alpha) (fullscreen . fullboth) (horizontal-scroll-bars . t) (display-type . color) (background-mode . dark) (cursor-color . "#93a1a1") (environment) (border-color . "#073642") (frameset--id . "C282-F33D-632A-AE8C") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (right-divider-width . 0) (bottom-divider-width . 0) (icon-name) (display . "wuwenqingdeMacBook-Pro-2.local") (explicit-name) (tool-bar-position . top) (visibility . t) (height . 42) (width . 125) (left . 0) (top . 0)) ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 5) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 76) (min-pixel-width . 100) (min-pixel-height-ignore . 57) (min-pixel-width-ignore . 50) (min-pixel-height-safe . 19) (min-pixel-width-safe . 20)) leaf (pixel-width . 1280) (pixel-height . 781) (total-width . 128) (total-height . 41) (normal-height . 1.0) (normal-width . 1.0) (buffer "*shell*" (selected . t) (hscroll . 0) (fringes 14 16 nil) (margins 3) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 24689) (start . 23474))))])
+(setq desktop-saved-frameset [frameset 1 (21951 35086 160805 0) (desktop . "206") "wuwenqing@wuwenqingdeMacBook-Pro.local" nil nil ((((font-backend mac-ct ns) (fontsize . 0) (font . "-*-Menlo-normal-normal-normal-*-16-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 0) (vertical-scroll-bars) (foreground-color . "#839496") (background-color . "#002b36") (line-spacing) (left-fringe . 14) (right-fringe . 16) (menu-bar-lines . 1) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (alpha) (fullscreen . fullboth) (horizontal-scroll-bars . t) (display-type . color) (background-mode . dark) (cursor-color . "#93a1a1") (environment) (border-color . "#073642") (display . "wuwenqingdeMacBook-Pro.local") (frameset--id . "C282-F33D-632A-AE8C") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (right-divider-width . 0) (bottom-divider-width . 0) (icon-name) (explicit-name) (tool-bar-position . top) (visibility . t) (height . 42) (width . 125) (left . 0) (top . 0)) ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 5) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 76) (min-pixel-width . 100) (min-pixel-height-ignore . 57) (min-pixel-width-ignore . 50) (min-pixel-height-safe . 19) (min-pixel-width-safe . 20)) leaf (pixel-width . 1280) (pixel-height . 781) (total-width . 128) (total-height . 41) (normal-height . 1.0) (normal-width . 1.0) (buffer "*shell*" (selected . t) (hscroll . 0) (fringes 14 16 nil) (margins 4) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 100406) (start . 98932))))])
 (setq comint-input-ring nil)
 (setq compile-history nil)
 (setq desktop-missing-file-warning nil)
 (setq dired-regexp-history nil)
-(setq extended-command-history '("git-commit-all" "git-merge" "git-switch-branch" "git-checkout" "git-commit-all" "helm-imenu" "git-diff-all-head" "git-commit-all" "helm-imenu" "git-commit-all" "git-diff-all-head" "git-commit-all" "helm-imenu" "shell" "goto-line" "shell" "helm-imenu" "goto-line" "shell" "helm-imenu" "shell" "goto-line" "shell" "helm-imenu" "shell" "reload-file" "shell" "git-commit-all" "shell" "git-commit-all"))
+(setq extended-command-history '("git-commit-all" "git-diff-all-head" "helm-imenu" "shell" "goto-line" "helm-imenu" "shell" "goto-line" "helm-imenu" "goto-line" "occur" "goto-line" "helm-imenu" "goto-line" "shell" "occur" "helm-imenu" "goto-line" "occur" "goto-line" "occur" "shell" "comment-region" "helm-imenu" "shell" "goto-line" "shell" "uncomment-region" "comment-region" "shell"))
 (setq face-name-history nil)
-(setq file-name-history '("/Users/wuwenqing/Work/publishserver/run/publishserver.conf" "~/Work/im-server-new/src/tcp_protocol_proxy/OldClientConn.cpp" "~/Work/im-server-new/src/biz_base/User.cpp" "~/Work/im-server-new/src/tcp_protocol_proxy/OldClientConn.cpp" "~/Work/im-server-new/src/biz_server_buddy/BuddyBiz.cpp" "~/Work/im-server-new/src/biz_base/Shop.cpp" "~/Work/im-server-new/src/logic_server_buddy/BuddyLogic.cpp" "/Users/wuwenqing/Work/publishserver/src/base/ConfigFileReader.h" "/Users/wuwenqing/Work/publishserver/src/publish_server/publishserver.conf" "/Users/wuwenqing/Work/publishserver/src/base/ConfigFileReader.cpp" "/Users/wuwenqing/Work/im-server-new/src/access_server/AccessConn.cpp" "/Users/wuwenqing/Work/publishserver/src/base/ConfigFileReader.cpp" "/Users/wuwenqing/Work/publishserver/src/publish_server/Publish_server.cpp" "/Users/wuwenqing/Work/publishserver/run/publishserver.conf" "/Users/wuwenqing/Work/publishserver/script/start.sh" "/Users/wuwenqing/Work/publishserver/script/prepare.sh" "/Users/wuwenqing/Work/publishserver/src/publish_server/HttpConn.cpp" "/Users/wuwenqing/Work/publishserver/script/prepare.sh" "/Users/wuwenqing/Work/im-server-new/src/biz_base/User.h" "/Users/wuwenqing/Work/im-server-new/src/biz_base/User.cpp" "/Users/wuwenqing/Work/im-server-new/src/biz_base/User.h" "/Users/wuwenqing/Work/im-server-new/src/logic_server_login/LoginLogic.cpp" "/Users/wuwenqing/Work/im-server-new/src/base/ImPduLogin.h" "/Users/wuwenqing/Work/im-server-new/src/biz_server_login/LoginBiz.cpp" "/Users/wuwenqing/Work/im-server-new/src/biz_base/Shop.cpp" "/Users/wuwenqing/Work/im-server-new/src/biz_base/User.cpp" "/Users/wuwenqing/Work/im-server-new/src/biz_server_login/LoginBiz.cpp" "/Users/wuwenqing/Work/im-server-new/src/base/ImPduLogin.h" "/Users/wuwenqing/Work/im-server-new/src/tcp_protocol_proxy/OldClientConn.cpp" "/Users/wuwenqing/Work/im-server-new/src/logic_server_buddy/BuddyLogic.cpp" "/Users/wuwenqing/Work/im-server-new/src/biz_server_buddy/BuddyBiz.cpp" "/Users/wuwenqing/Work/publishserver/script/validate.sh" "/Users/wuwenqing/Work/publishserver/script/start.sh" "/Users/wuwenqing/Work/publishserver/src/publish_server/HttpConn.cpp" "/Users/wuwenqing/Work/im-server-new/src/biz_server_cinfo/BizServerCInfo.conf" "/Users/wuwenqing/Work/im-server-new/src/biz_server_message/BizServerMessage.conf" "/Users/wuwenqing/Work/im-server-new/src/biz_server_buddy/BizServerBuddy.conf" "/Users/wuwenqing/Work/im-server-new/src/biz_server_general/BizServerGeneral.conf" "~/Work/GoodByeDealer/app/Http/Controllers/PageNavController.php" "~/Work/GoodByeDealer/app/Http/routes.php" "/Users/wuwenqing/Work/GoodByeDealer/resources/views/car/sell.blade.php" "/Users/wuwenqing/Work/GoodByeDealer/config/source.php" "/Users/wuwenqing/Work/GoodByeDealer/config/car.php" "/Users/wuwenqing/Work/GoodByeDealer/app/Http/Controllers/CarController.php" "/Users/wuwenqing/Work/GoodByeDealer/app/Http/routes.php" "/Users/wuwenqing/Work/GoodByeDealer/config/source.php" "/Users/wuwenqing/Work/GoodByeDealer/app/Http/Controllers/SeriesController.php" "/Users/wuwenqing/Work/GoodByeDealer/app/Http/Controllers/CarConfigController.php" "/Users/wuwenqing/Work/GoodByeDealer/app/Http/routes.php" "/Users/wuwenqing/Work/GoodByeDealer/config/car.php" "/Users/wuwenqing/Work/GoodByeDealer/app/Http/Controllers/PageNavController.php" "/Users/wuwenqing/Work/GoodByeDealer/app/Http/routes.php" "/Users/wuwenqing/Work/GoodByeDealer/config/car.php" "/Users/wuwenqing/Work/GoodByeDealer/config/source.php" "/Users/wuwenqing/Work/GoodByeDealer/config/car.php" "/Users/wuwenqing/Work/GoodByeDealer/config/cache.php" "/Users/wuwenqing/Work/GoodByeDealer/resources/views/webadmin/car/config/detail.blade.php" "/Users/wuwenqing/Work/GoodByeDealer/resources/views/webadmin/car/config/add.blade.php" "/Users/wuwenqing/Work/GoodByeDealer/app/Http/Controllers/PageNavController.php" "/Users/wuwenqing/Work/GoodByeDealer/resources/views/layouts/master.blade.php" "/Users/wuwenqing/Work/GoodByeDealer/resources/views/webadmin/car/config/list.blade.php" "/Users/wuwenqing/Work/GoodByeDealer/app/Http/Controllers/BandController.php" "/Users/wuwenqing/Work/GoodByeDealer/app/Http/Controllers/BaseController.php" "/Users/wuwenqing/Work/GoodByeDealer/app/Http/Controllers/BandController.php" "/Users/wuwenqing/Work/GoodByeDealer/app/Http/Controllers/CarConfigController.php" "/Users/wuwenqing/Work/GoodByeDealer/app/Http/routes.php" "/Users/wuwenqing/Work/GoodByeDealer/resources/views/layouts/master.blade.php" "/Users/wuwenqing/Work/GoodByeDealer/resources/views/webadmin/band/series/detail.blade.php" "/Users/wuwenqing/Work/GoodByeDealer/resources/views/webadmin/band/series/add.blade.php" "/Users/wuwenqing/Work/GoodByeDealer/app/Http/Controllers/PageNavController.php" "/Users/wuwenqing/Work/GoodByeDealer/app/Http/Controllers/SeriesController.php" "/Users/wuwenqing/Work/GoodByeDealer/resources/views/webadmin/band/series/list.blade.php" "/Users/wuwenqing/Work/GoodByeDealer/app/Http/Controllers/BandController.php" "/Users/wuwenqing/Work/GoodByeDealer/app/Http/Controllers/SeriesController.php" "/Users/wuwenqing/Work/GoodByeDealer/app/Http/Controllers/PageNavController.php" "/Users/wuwenqing/Work/GoodByeDealer/app/Http/routes.php" "/Users/wuwenqing/Work/GoodByeDealer/resources/views/layouts/master.blade.php" "/Users/wuwenqing/Work/im-server-new/src/logic_server_buddy/StrategyFactory.cpp" "/Users/wuwenqing/Work/im-server-new/src/biz_server_buddy/BuddyBiz.cpp" "/Users/wuwenqing/Work/im-server-new/src/biz_base/RelationShip.cpp" "/Users/wuwenqing/Work/im-server-new/src/biz_server_general/GeneralBiz.cpp" "/Users/wuwenqing/Work/im-server-new/src/biz_base/Common.h" "/Users/wuwenqing/Work/im-server-new/src/biz_base/Shop.cpp" "/Users/wuwenqing/Work/im-server-new/src/biz_base/Employee.cpp" "/Users/wuwenqing/Work/im-server-new/src/biz_base/Employee.h" "/Users/wuwenqing/Work/im-server-new/src/logic_server_buddy/ServiceStrategy.cpp" "~/Work/im-server-new/src/biz_base/CacheTypes.h" "~/Work/im-server-new/src/base/ImPduServer.cpp" "~/Work/im-server-new/src/base/ImPduServer.h" "~/Work/im-server-new/src/logic_server_buddy/StrategyFactory.cpp" "~/Work/im-server-new/src/logic_server_buddy/StrategyFactory.h" "~/Work/im-server-new/src/logic_server_buddy/RandomStrategy.cpp" "~/Work/im-server-new/src/logic_server_buddy/RoundTripStrategy.cpp" "~/Work/im-server-new/src/base/util.h" "~/Work/im-server-new/src/logic_server_buddy/LoadStrategy.cpp" "~/Work/im-server-new/src/logic_server_buddy/LoadStrategy.h" "~/Work/im-server-new/src/logic_server_buddy/BuddyLogic.cpp" "/Users/wuwenqing/Work/im-server-new/src/logic_server_buddy/ServiceStrategy.cpp" "/Users/wuwenqing/Work/im-server-new/src/logic_server_buddy/ServiceStrategy.h" "/Users/wuwenqing/Work/im-server-new/src/logic_server_buddy/ServiceStrategy.cpp"))
+(setq file-name-history '("/Users/wuwenqing/Work/im-server-new/src/base/CachePool.cpp" "/Users/wuwenqing/Work/im-server-new/src/biz_base/Shop.cpp" "~/Work/im-server-new/src/biz_server_buddy/BuddyBiz.cpp" "/Users/wuwenqing/Work/im-server-new/src/logic_server_buddy/BuddyLogic.cpp" "/Users/wuwenqing/Work/im-server-new/src/biz_base/Shop.cpp" "/Users/wuwenqing/Work/im-server-new/src/biz_base/User.cpp" "/Users/wuwenqing/Work/im-server-new/src/logic_server_buddy/BuddyLogic.cpp" "/Users/wuwenqing/Work/im-server-new/src/biz_base/Shop.cpp" "/Users/wuwenqing/Work/im-server-new/src/test_client/test_client.cpp" "/Users/wuwenqing/Work/im-server-new/src/biz_server_buddy/BuddyBiz.cpp" "/Users/wuwenqing/Work/im-server-new/doc/IM‘¿Í‘»§‘¶Ë‘·þ‘Îñ‘¶Ë‘½»‘»¥‘Ð­‘Òé‘ÎÄ‘µµ.md" "/Users/wuwenqing/Work/im-server-new/src/logic_server_buddy/BuddyLogic.cpp" "~/Work/im-server-new/src/biz_base/Shop.cpp" "/Users/wuwenqing/Work/im-server-new/src/biz_server_buddy/BuddyBiz.cpp" "/Users/wuwenqing/Work/im-server-new/src/biz_base/Shop.h" "/Users/wuwenqing/Work/im-server-new/src/biz_base/Shop.cpp" "/Users/wuwenqing/Work/im-server-new/src/biz_server_login/LoginBiz.cpp" "/Users/wuwenqing/Work/im-server-new/src/biz_server_login/BizServerLogin.conf" "/Users/wuwenqing/Work/im-server-new/src/biz_base/Shop.cpp" "/Users/wuwenqing/Work/im-server-new/src/http_protocol_proxy/HttpUser.cpp" "/Users/wuwenqing/Work/im-server-new/src/logic_server_buddy/TransShop.cpp" "/Users/wuwenqing/Work/im-server-new/src/logic_server_buddy/BuddyLogic.cpp" "/Users/wuwenqing/Work/im-server-new/src/logic_server_buddy/ServiceStrategy.h" "/Users/wuwenqing/Work/im-server-new/src/logic_server_buddy/BuddyLogic.cpp" "/Users/wuwenqing/Work/im-server-new/src/biz_server_cinfo/CInfoBiz.cpp" "/Users/wuwenqing/Work/im-server-new/src/base/ImPduBase.h" "/Users/wuwenqing/Work/im-server-new/src/base/ImPduServer.cpp" "/Users/wuwenqing/Work/im-server-new/src/biz_base/RelationShip.cpp" "/Users/wuwenqing/Work/im-server-new/src/biz_base/SysPushModuleApi.cpp" "/Users/wuwenqing/Work/im-server-new/src/biz_server_buddy/BuddyBiz.cpp" "/Users/wuwenqing/Work/im-server-new/src/biz_server_buddy/BizServerBuddy.conf" "~/Work/GoodByeDealer/app/Http/Controllers/CarController.php" "/Users/wuwenqing/Work/GoodByeDealer/resources/views/layouts/frame.blade.php" "/Users/wuwenqing/Work/GoodByeDealer/public/assets/css/style.css" "/Users/wuwenqing/Work/GoodByeDealer/public/assets/css/style-responsive.min.css" "/Users/wuwenqing/Work/GoodByeDealer/resources/views/layouts/frame.blade.php" "/Users/wuwenqing/Work/GoodByeDealer/resources/views/index.blade.php" "/Users/wuwenqing/Work/GoodByeDealer/resources/views/layouts/frame.blade.php" "~/Work/GoodByeDealer/resources/views/admin/band/add.blade.php" "~/Work/GoodByeDealer/resources/views/admin/car/recommend.blade.php" "~/Work/GoodByeDealer/app/Http/Controllers/BandController.php" "~/Work/GoodByeDealer/app/Http/Controllers/SellController.php" "~/Work/im-server-new/src/biz_server_general/GeneralBiz.cpp" "~/Work/GoodByeDealer/resources/views/index.blade.php" "~/Work/GoodByeDealer/app/Http/Controllers/IndexController.php" "~/Work/GoodByeDealer/app/Http/Controllers/CarController.php" "~/Work/GoodByeDealer/resources/views/buy/detail.blade.php" "/Users/wuwenqing/Work/GoodByeDealer/resources/views/intro/aboutus.blade.php" "/Users/wuwenqing/Work/GoodByeDealer/resources/views/layouts/frame.blade.php" "/Users/wuwenqing/Work/GoodByeDealer/resources/views/intro/aboutus.blade.php" "/Users/wuwenqing/Work/GoodByeDealer/resources/views/buy/detail.blade.php" "/Users/wuwenqing/Work/GoodByeDealer/app/Http/Controllers/CarController.php" "/Users/wuwenqing/Work/GoodByeDealer/app/Http/routes.php" "/Users/wuwenqing/Work/GoodByeDealer/app/Models/Series.php" "/Users/wuwenqing/Work/GoodByeDealer/resources/views/index.blade.php" "/Users/wuwenqing/Work/GoodByeDealer/app/Http/Controllers/IndexController.php" "/Users/wuwenqing/Work/GoodByeDealer/app/Http/routes.php" "/Users/wuwenqing/Work/im-server-new/src/biz_server_general/GeneralBiz.cpp" "~/Work/GoodByeDealer/app/Http/Controllers/SellController.php" "~/Work/GoodByeDealer/app/Http/routes.php" "~/Work/GoodByeDealer/resources/views/admin/band/add.blade.php" "~/Work/GoodByeDealer/resources/views/admin/car/recommend.blade.php" "~/Work/GoodByeDealer/app/Http/Controllers/BandController.php" "~/Work/GoodByeDealer/resources/views/admin/car/recommend.blade.php" "/Users/wuwenqing/Work/GoodByeDealer/app/Http/Controllers/BandController.php" "/Users/wuwenqing/Work/GoodByeDealer/resources/views/admin/band/add.blade.php" "/Users/wuwenqing/Work/GoodByeDealer/app/Http/Controllers/CarController.php" "/Users/wuwenqing/Work/GoodByeDealer/resources/views/admin/car/recommend.blade.php" "/Users/wuwenqing/Work/GoodByeDealer/app/Http/Controllers/CarController.php" "/Users/wuwenqing/Work/GoodByeDealer/app/Http/routes.php" "/Users/wuwenqing/Work/GoodByeDealer/resources/views/admin/car/list.blade.php" "/Users/wuwenqing/Work/GoodByeDealer/database/migrations/2015_07_25_042608_Car.php" "/Users/wuwenqing/Work/GoodByeDealer/database/migrations/2015_07_31_170206_Car.php" "/Users/wuwenqing/Work/GoodByeDealer/database/migrations/2015_07_31_170032_Car.php" "/Users/wuwenqing/Work/GoodByeDealer/resources/views/admin/error.blade.php" "/Users/wuwenqing/Work/GoodByeDealer/app/Http/Controllers/SellController.php" "/Users/wuwenqing/Work/GoodByeDealer/app/Http/Controllers/BandController.php" "/Users/wuwenqing/Work/GoodByeDealer/resources/views/admin/car/add.blade.php" "/Users/wuwenqing/Work/GoodByeDealer/readme.md" "/Users/wuwenqing/Work/GoodByeDealer/app/Http/routes.php" "/Users/wuwenqing/Work/GoodByeDealer/app/Http/Controllers/CarController.php" "/Users/wuwenqing/Work/GoodByeDealer/resources/views/layouts/master.blade.php" "/Users/wuwenqing/Work/GoodByeDealer/resources/views/sell/fill.blade.php" "/Users/wuwenqing/Work/GoodByeDealer/app/Http/Controllers/SellController.php" "/Users/wuwenqing/Work/GoodByeDealer/app/Http/Controllers/CarController.php" "/Users/wuwenqing/Work/GoodByeDealer/resources/views/admin/car/add.blade.php" "~/Work/im-server-new/src/logic_server_buddy/BuddyLogic.cpp" "/Users/wuwenqing/Work/im-server-new/src/biz_server_buddy/BuddyBiz.cpp" "/Users/wuwenqing/Work/im-server-new/src/logic_server_buddy/BuddyLogic.cpp" "/Users/wuwenqing/Work/im-server-new/src/biz_server_buddy/BizServerBuddy.conf" "/Users/wuwenqing/Work/im-server-new/src/logic_server_buddy/logic_server_buddy.cpp" "~/Work/im-server-new/src/logic_server_buddy/TransShop.cpp" "/Users/wuwenqing/Work/im-server-new/src/logic_server_buddy/logic_server_buddy.cpp" "~/Work/im-server-new/src/logic_server_buddy/TransShop.cpp" "/Users/wuwenqing/Work/im-server-new/src/logic_server_buddy/TransShop.h" "/Users/wuwenqing/Work/im-server-new/src/logic_server_buddy/BuddyLogic.cpp" "~/Work/im-server-new/src/logic_server_buddy/TransShop.cpp" "/Users/wuwenqing/Work/im-server-new/src/logic_server_buddy/logic_server_buddy.cpp" "/Users/wuwenqing/Work/im-server-new/src/logic_server_buddy/logic_server_buddy" "/Users/wuwenqing/Work/im-server-new/src/logic_server_buddy/TransShop.cpp"))
 (setq grep-find-history nil)
 (setq grep-history nil)
-(setq ido-buffer-history '("publishserver.conf —£À run" "*shell*" "Publish_server.cpp" "*shell*" "Publish_server.cpp" "*shell*" "Publish_server.cpp" "publishserver.conf —£À publish_server" "Publish_server.cpp" "publishserver.conf —£À publish_server" "Publish_server.cpp" "publishserver.conf —£À publish_server" "ConfigFileReader.h" "ConfigFileReader.cpp" "publishserver.conf —£À publish_server" "ConfigFileReader.cpp" "AccessConn.cpp" "*git diff: ~/Work/im-server-new/ HEAD..<working>*" "*shell*" "Publish_server.cpp" "*shell*" "ConfigFileReader.cpp" "Publish_server.cpp" "ConfigFileReader.cpp" "Publish_server.cpp" "publishserver.conf" "Publish_server.cpp" "publishserver.conf" "HttpConn.cpp" "*shell*" "start.sh" "*shell*" "start.sh" "*shell*" "prepare.sh" "*shell*" "*git diff: ~/Work/publishserver/ HEAD..<working>*" "*git commit*" "LoginLogic.cpp" "*shell*" "OldClientConn.cpp" "User.cpp" "OldClientConn.cpp" "*shell*" "OldClientConn.cpp" "*shell*" "User.cpp" "ImPduLogin.h" "LoginBiz.cpp" "User.cpp" "BuddyBiz.cpp" "User.cpp" "Shop.cpp" "User.cpp" "Shop.cpp" "User.cpp" "LoginBiz.cpp" "OldClientConn.cpp" "LoginBiz.cpp" "*shell*" "OldClientConn.cpp" "*shell*" "OldClientConn.cpp" "*shell*" "HttpConn.cpp" "validate.sh" "start.sh" "BizServerCInfo.conf" "BizServerBuddy.conf" "BizServerMessage.conf" "BizServerGeneral.conf" "*scratch*" "*Messages*" "*Disabled Command*" "*scratch*" "routes.php" "PageNavController.php" "sell.blade.php" "CarController.php" "source.php" "car.php" "routes.php" "SeriesController.php" "routes.php" "SeriesController.php" "routes.php" "SeriesController.php" "source.php" "CarConfigController.php" "source.php" "cache.php" "*scratch*" "*Messages*" "*helm-mode-completion-at-point*" "*Messages*" "*helm imenu*" "*Disabled Command*" "*Messages*" "BandController.php" "*scratch*"))
-(setq ido-last-directory-list '(("/Users/wuwenqing/Work/GoodByeDealer/resources/views/webadmin/car/" . "config/") ("/Users/wuwenqing/Work/GoodByeDealer/resources/views/webadmin/band/" . "series/") ("/Users/wuwenqing/Work/GoodByeDealer/resources/views/webadmin/" . "car/") ("/Users/wuwenqing/Work/practise/blog/" . "public/") ("/Users/wuwenqing/Work/GoodByeDealer/app/Handlers/" . "Events/") ("/Users/wuwenqing/Work/GoodByeDealer/app/Http/models/" . "core/") ("/Users/wuwenqing/Work/GoodByeDealer/app/Http/" . "Controllers/") ("/Users/wuwenqing/OpenSource/webadmin-template/" . "color-admin/") ("/Users/wuwenqing/Work/ProtocolGenerator/test/" . "cpp/") ("/Users/wuwenqing/Work/ProtocolGenerator/" . "test/") ("/Users/wuwenqing/Work/im-platform/" . "src/") ("/Users/wuwenqing/Work/publishserver/src/" . "publish_server/") ("/Users/wuwenqing/Work/publishserver/" . "run/") ("/Users/wuwenqing/Work/im-platform/src/" . "http_access_server/") ("/Users/wuwenqing/Work/im-server-new/src/test_client/log/" . "2015-07-15/") ("/Users/wuwenqing/Work/im-server-new/src/test_client/" . "log/") ("/etc/apache2/" . "extra/") ("/etc/" . "apache2/") ("/Users/wuwenqing/Work/GoodByeDealer/resources/" . "views/") ("/Users/wuwenqing/Work/GoodByeDealer/resources/views/" . "car/") ("/Users/wuwenqing/.emacs.d/lisp/" . "funcs/") ("/Users/wuwenqing/.emacs.d/elpa/themes/" . "solarized/") ("/Users/wuwenqing/OpenSource/purcell_emacs/" . "lisp/") ("/Users/wuwenqing/work/GarvinEngine/include/" . "util/") ("/Users/wuwenqing/Work/GarvinEngine/include/" . "base/") ("/Users/wuwenqing/Work/practise/invo/app/" . "plugins/") ("/Users/wuwenqing/Work/practise/invo/" . "app/") ("/Users/wuwenqing/Work/GoodByeDealer/public/webadmin/assets/plugins/gritter/" . "js/") ("/Users/wuwenqing/Work/GoodByeDealer/public/webadmin/assets/plugins/" . "gritter/") ("/Users/wuwenqing/Work/GoodByeDealer/public/webadmin/assets/" . "js/") ("/Users/wuwenqing/Work/GoodByeDealer/public/webadmin/" . "assets/") ("/Users/wuwenqing/Work/GoodByeDealer/public/" . "car/") ("/Users/wuwenqing/Work/GoodByeDealer/public/javascripts/" . "network/") ("/Users/wuwenqing/work/GoodByeDealer/app/config/" . "common/") ("/Users/wuwenqing/Downloads/" . "easyDB/") ("/Users/wuwenqing/work/mogujie/" . "modules/") ("/Users/wuwenqing/work/GoodByeDealer/app/models/" . "manager/") ("/Users/wuwenqing/work/GoodByeDealer/app/" . "controllers/") ("/Users/wuwenqing/work/GoodByeDealer/" . "app/") ("/Users/wuwenqing/Work/GoodByeDealer/app/models/" . "core/") ("/Users/wuwenqing/Work/GoodByeDealer/" . "resources/") ("/Users/wuwenqing/Work/GoodByeDealer/app/" . "Http/") ("/Users/wuwenqing/work/GoodByDealer/app/" . "controllers/") ("/Users/wuwenqing/Work/practise/store/" . "config/") ("/Users/wuwenqing/Work/GoodByDealer/app/models/" . "dict/") ("/Users/wuwenqing/Work/GoodByDealer/app/" . "controllers/") ("/Users/wuwenqing/OpenSource/phalcon-tools/scripts/" . "Phalcon/") ("/Users/wuwenqing/Work/GoodByDealer.bak/" . "common/") ("/Users/wuwenqing/Work/mogujie/appbeta/classes/crond/" . "mtalk/") ("/Users/wuwenqing/Work/mogujie/appbeta/classes/model/trade/shop/" . "util/") ("/Users/wuwenqing/Work/mogujie/appbeta/classes/controller/open/" . "shop/") ("/Users/wuwenqing/Work/mogujie/appbeta/classes/model/shopcenter/" . "service/") ("/Users/wuwenqing/Work/mogujie/appbeta/classes/model/trade/" . "shop/") ("/Users/wuwenqing/Work/mogujie/appbeta/classes/controller/trade/" . "crm/") ("/Users/wuwenqing/Work/mogujie/appbeta/classes/controller/" . "open/") ("/Users/wuwenqing/work/tools/" . "data_checker/") ("/Users/wuwenqing/OpenSource/" . "webadmin-template/") ("/Users/wuwenqing/Work/GarvinEngine/src/" . "util/") ("/Users/wuwenqing/Work/GarvinEngine/" . "include/") ("/Users/wuwenqing/work/practise/" . "erlang/") ("/Users/wuwenqing/Work/practise/" . "invo/") ("/Users/wuwenqing/Work/tools/update_group/" . "src/") ("/Users/wuwenqing/Work/tools/" . "update_group/") ("/Users/wuwenqing/Work/im-server-new/src/" . "access_server/") ("/Users/wuwenqing/Work/im-server-new/" . "src/") ("/Users/wuwenqing/work/im-server-new/src/" . "base/") ("/Users/wuwenqing/work/im-server-new/" . "src/") ("/Users/wuwenqing/Work/mogujie/appbeta/classes/model/mtalk/" . "common/") ("/Users/wuwenqing/Work/mogujie/appbeta/classes/model/" . "mtalk/") ("/Users/wuwenqing/Work/mogujie/appbeta/classes/" . "crond/") ("/Users/wuwenqing/Work/mogujie/appbeta/" . "classes/") ("/Users/wuwenqing/Work/mogujie/" . "appbeta/") ("/Users/wuwenqing/Work/GoodByDealer/" . "app/") ("/Users/wuwenqing/work/GoodByDealer/" . "app/") ("/Users/wuwenqing/.emacs.d/elpa/plugins/doxymacs/" . "lisp/") ("/Users/wuwenqing/.emacs.d/elpa/plugins/" . "helm/") ("/Users/wuwenqing/work/imserver/im-server/src/db_proxy_server/" . "business/") ("/Users/wuwenqing/work/GarvinEngine/src/" . "util/") ("/Users/wuwenqing/work/GarvinEngine/" . "include/") ("/Users/wuwenqing/work/" . "GarvinEngine/") ("/Users/wuwenqing/.emacs.d/elpa/" . "plugins/") ("/Users/wuwenqing/Work/imserver/im-server/src/db_proxy_server/" . "business/") ("/Users/wuwenqing/Work/" . "publishserver/") ("/Users/wuwenqing/Work/imserver/im-server/" . "doc/") ("/Users/wuwenqing/Work/imserver/" . "im-server/") ("/Users/wuwenqing/Work/imserver/im-server/src/" . "db_proxy_server/") ("/Users/" . "wuwenqing/") ("/" . "Users/") ("/Users/wuwenqing/" . "Work/") ("/Users/wuwenqing/.emacs.d/" . "lisp/") ("/Users/wuwenqing/work/imserver/im-server/src/" . "db_proxy_server/") ("/Users/wuwenqing/work/imserver/im-server/" . "src/") ("/Users/wuwenqing/work/imserver/" . "im-server/")))
-(setq ido-work-directory-list '("/Users/wuwenqing/Work/publishserver/run/" "/Users/wuwenqing/Work/publishserver/src/base/" "/Users/wuwenqing/Work/publishserver/src/publish_server/" "/Users/wuwenqing/Work/im-server-new/src/access_server/" "/Users/wuwenqing/Work/publishserver/script/" "/Users/wuwenqing/Work/im-server-new/src/biz_base/" "/Users/wuwenqing/Work/im-server-new/src/logic_server_login/" "/Users/wuwenqing/Work/im-server-new/src/base/" "/Users/wuwenqing/Work/im-server-new/src/biz_server_login/" "/Users/wuwenqing/Work/im-server-new/src/tcp_protocol_proxy/" "/Users/wuwenqing/Work/im-server-new/src/logic_server_buddy/" "/Users/wuwenqing/Work/im-server-new/src/biz_server_buddy/" "/Users/wuwenqing/Work/im-server-new/src/biz_server_cinfo/" "/Users/wuwenqing/Work/im-server-new/src/biz_server_message/" "/Users/wuwenqing/Work/im-server-new/src/biz_server_general/" "/Users/wuwenqing/Work/GoodByeDealer/resources/views/car/" "/Users/wuwenqing/Work/GoodByeDealer/config/" "/Users/wuwenqing/Work/GoodByeDealer/app/Http/Controllers/" "/Users/wuwenqing/Work/GoodByeDealer/app/Http/" "/Users/wuwenqing/Work/GoodByeDealer/resources/views/webadmin/car/config/" "/Users/wuwenqing/Work/GoodByeDealer/resources/views/layouts/" "/Users/wuwenqing/Work/GoodByeDealer/resources/views/webadmin/band/series/" "/Users/wuwenqing/Work/imserver/im-server/doc/" "/Users/wuwenqing/Work/im-server-new/src/http_api_server/" "/Users/wuwenqing/Work/GoodByeDealer/resources/views/" "/Users/wuwenqing/Work/GoodByeDealer/public/car/" "/Users/wuwenqing/Work/GoodByeDealer/resources/views/pay/" "/Users/wuwenqing/Work/GoodByeDealer/resources/views/introduce/" "/Users/wuwenqing/Work/GoodByeDealer/public/introduce/" "/Users/wuwenqing/Work/im-server-new/src/logic_base/" "/Users/wuwenqing/Work/GoodByeDealer/vendor/" "/Users/wuwenqing/Work/GoodByeDealer/bootstrap/" "/Users/wuwenqing/Work/GoodByeDealer/public/" "/Users/wuwenqing/Work/GoodByeDealer/" "/Users/wuwenqing/Work/GoodByeDealer/resources/views/webadmin/band/" "/Users/wuwenqing/Work/GoodByeDealer/public/css/" "/Users/wuwenqing/Work/GoodByeDealer/resources/views/webadmin/" "/Users/wuwenqing/Work/GoodByeDealer/resources/views/webadmin/user/" "/Users/wuwenqing/OpenSource/webadmin-template/color-admin/" "/Users/wuwenqing/Work/GoodByeDealer/app/" "/Users/wuwenqing/Work/practise/blog/public/" "/Users/wuwenqing/" "/Users/wuwenqing/Work/GoodByeDealer/app/Services/" "/Users/wuwenqing/Work/GoodByeDealer/app/Providers/" "/Users/wuwenqing/Work/GoodByeDealer/app/Events/" "/Users/wuwenqing/Work/GoodByeDealer/public/webadmin/" "/Users/wuwenqing/Work/GoodByeDealer/public/webadmin/assets/js/" "/Users/wuwenqing/Work/GoodByeDealer/public/webadmin/user/" "/Users/wuwenqing/Work/GarvinEngine/include/base/" "/Users/wuwenqing/Work/im-server-new/src/logic_server_message/"))
-(setq ido-work-file-list '("publishserver.conf" "ConfigFileReader.h" "ConfigFileReader.cpp" "AccessConn.cpp" "Publish_server.cpp" "start.sh" "prepare.sh" "HttpConn.cpp" "User.h" "User.cpp"))
-(setq minibuffer-history '("r " "pu " "master" "service" "_load" "O " "im- " "main" "handl" "65" "getyoudia" "551" "t " "575" "\\_<\\_>" "67" "855" "890" "879" "876" "837" "822" "804" "939" "929" "380" "137" "247" "576" "82" "78" "65" "226" "103" "64" "33" "31" "102" "1219" "1239" "1116" "1165" "802" "805" "862" "842" "185" "handl" "525" "\\_<\\_>"))
-(setq query-replace-history '("/images" "../images" "/images" "../images" "/uploads" "uploads" "/images" "images" "/webadmin" "../webadmin" "../webadmin/assets" "assets" "type" "language" "stop" "rollback" "start" "rollback" "im-server-new" "im-server" "css" "stylesheets" "footer-link-font" "footer-linker-font"))
+(setq ido-buffer-history '("*shell*" "*git diff: ~/Work/im-server-new/ HEAD..<working>*" "CachePool.cpp" "BuddyBiz.cpp" "BuddyLogic.cpp" "BuddyBiz.cpp" "Shop.cpp" "User.cpp" "BuddyBiz.cpp" "BuddyLogic.cpp" "Shop.cpp" "*shell*" "BuddyBiz.cpp" "*shell*" "BuddyBiz.cpp" "*shell*" "BuddyLogic.cpp" "BuddyBiz.cpp" "TransShop.cpp" "Shop.cpp" "*shell*" "Shop.cpp" "*shell*" "BuddyBiz.cpp" "*shell*" "BuddyBiz.cpp" "*shell*" "Shop.cpp" "BizServerLogin.conf" "Shop.cpp" "*Backtrace*" "LoginBiz.cpp" "*shell*" "*scratch*" "BizServerBuddy.conf" "RelationShip.cpp" "SysPushModuleApi.cpp" "ServiceStrategy.h" "BuddyLogic.cpp" "ServiceStrategy.h" "ImPduServer.cpp" "CInfoBiz.cpp" "ImPduBase.h" "BuddyBiz.cpp" "*scratch*" "*Messages*" "*helm-mode-completion-at-point*" "*Messages*" "*helm imenu*" "*Messages*" "*helm-mode-basic-save-buffer*" "add.blade.php" "recommend.blade.php" "BandController.php" "SellController.php" "GeneralBiz.cpp" "*Messages*" "*scratch*" "*Disabled Command*" "*shell*" "detail.blade.php" "CarController.php" "detail.blade.php" "*shell*" "CarController.php" "*shell*" "CarController.php" "detail.blade.php" "index.blade.php" "frame.blade.php" "style.css" "frame.blade.php" "style.css" "style-responsive.min.css" "frame.blade.php" "*shell*" "frame.blade.php" "detail.blade.php" "*shell*" "detail.blade.php" "frame.blade.php" "detail.blade.php" "CarController.php" "IndexController.php" "detail.blade.php" "routes.php" "detail.blade.php" "*shell*" "aboutus.blade.php" "frame.blade.php" "*Backtrace*" "detail.blade.php" "CarController.php" "detail.blade.php" "routes.php" "CarController.php" "routes.php" "*Backtrace*" "routes.php" "Series.php"))
+(setq ido-last-directory-list '(("/Users/wuwenqing/.emacs.d/" . "lisp/") ("/Users/wuwenqing/Work/GoodByeDealer.bak/app/Http/" . "Controllers/") ("/Users/wuwenqing/Work/GoodByeDealer/resources/views/admin/" . "band/") ("/Users/wuwenqing/Work/GoodByeDealer/public/assets/js/" . "network/") ("/Users/wuwenqing/Work/GoodByeDealer/public/assets/" . "css/") ("/Users/wuwenqing/Work/" . "im-server-new/") ("/Users/wuwenqing/Work/GoodByeDealer.bak/resources/" . "lang/") ("/Users/wuwenqing/" . "Work/") ("/Users/wuwenqing/Work/GoodByeDealer.bak/app/" . "Http/") ("/Users/wuwenqing/Work/GoodByeDealer/vendor/laravel/framework/src/Illuminate/Database/" . "Migrations/") ("/Users/wuwenqing/Work/GoodByeDealer/vendor/laravel/framework/src/Illuminate/" . "Database/") ("/Users/wuwenqing/Work/GoodByeDealer/vendor/laravel/framework/src/" . "Illuminate/") ("/Users/wuwenqing/Work/GoodByeDealer/vendor/laravel/framework/" . "src/") ("/Users/wuwenqing/Work/GoodByeDealer/vendor/laravel/" . "framework/") ("/Users/wuwenqing/Work/GoodByeDealer/vendor/" . "laravel/") ("/Users/wuwenqing/Work/GoodByeDealer.bak/database/" . "migrations/") ("/Users/wuwenqing/Work/GoodByeDealer.bak/" . "app/") ("/Users/wuwenqing/Work/GoodByeDealer/app/Http/Controllers/" . "Auth/") ("/Users/wuwenqing/Work/GoodByeDealer/database/" . "migrations/") ("/Users/wuwenqing/Work/ihoooy/app/Http/" . "Middleware/") ("/Users/wuwenqing/Work/ihoooy/resources/views/" . "errors/") ("/Users/wuwenqing/Work/ihoooy/resources/" . "views/") ("/Users/wuwenqing/Work/ihoooy/app/" . "Http/") ("/Users/wuwenqing/Work/ihoooy/" . "app/") ("/Users/wuwenqing/Work/GoodByeDealer/resources/views/webadmin/car/" . "config/") ("/Users/wuwenqing/Work/GoodByeDealer/resources/views/webadmin/band/" . "series/") ("/Users/wuwenqing/Work/GoodByeDealer/resources/views/webadmin/" . "car/") ("/Users/wuwenqing/Work/practise/blog/" . "public/") ("/Users/wuwenqing/Work/GoodByeDealer/app/Handlers/" . "Events/") ("/Users/wuwenqing/Work/GoodByeDealer/app/Http/models/" . "core/") ("/Users/wuwenqing/Work/GoodByeDealer/app/Http/" . "Controllers/") ("/Users/wuwenqing/OpenSource/webadmin-template/" . "color-admin/") ("/Users/wuwenqing/Work/ProtocolGenerator/test/" . "cpp/") ("/Users/wuwenqing/Work/ProtocolGenerator/" . "test/") ("/Users/wuwenqing/Work/im-platform/" . "src/") ("/Users/wuwenqing/Work/publishserver/src/" . "publish_server/") ("/Users/wuwenqing/Work/publishserver/" . "run/") ("/Users/wuwenqing/Work/im-platform/src/" . "http_access_server/") ("/Users/wuwenqing/Work/im-server-new/src/test_client/log/" . "2015-07-15/") ("/Users/wuwenqing/Work/im-server-new/src/test_client/" . "log/") ("/etc/apache2/" . "extra/") ("/etc/" . "apache2/") ("/Users/wuwenqing/Work/GoodByeDealer/resources/" . "views/") ("/Users/wuwenqing/Work/GoodByeDealer/resources/views/" . "layouts/") ("/Users/wuwenqing/.emacs.d/lisp/" . "funcs/") ("/Users/wuwenqing/.emacs.d/elpa/themes/" . "solarized/") ("/Users/wuwenqing/OpenSource/purcell_emacs/" . "lisp/") ("/Users/wuwenqing/work/GarvinEngine/include/" . "util/") ("/Users/wuwenqing/Work/GarvinEngine/include/" . "base/") ("/Users/wuwenqing/Work/practise/invo/app/" . "plugins/") ("/Users/wuwenqing/Work/practise/invo/" . "app/") ("/Users/wuwenqing/Work/GoodByeDealer/public/webadmin/assets/plugins/gritter/" . "js/") ("/Users/wuwenqing/Work/GoodByeDealer/public/webadmin/assets/plugins/" . "gritter/") ("/Users/wuwenqing/Work/GoodByeDealer/public/webadmin/assets/" . "js/") ("/Users/wuwenqing/Work/GoodByeDealer/public/webadmin/" . "assets/") ("/Users/wuwenqing/Work/GoodByeDealer/public/" . "assets/") ("/Users/wuwenqing/Work/GoodByeDealer/public/javascripts/" . "network/") ("/Users/wuwenqing/work/GoodByeDealer/app/config/" . "common/") ("/Users/wuwenqing/Downloads/" . "easyDB/") ("/Users/wuwenqing/work/mogujie/" . "modules/") ("/Users/wuwenqing/work/GoodByeDealer/app/models/" . "manager/") ("/Users/wuwenqing/work/GoodByeDealer/app/" . "controllers/") ("/Users/wuwenqing/work/GoodByeDealer/" . "app/") ("/Users/wuwenqing/Work/GoodByeDealer/app/models/" . "core/") ("/Users/wuwenqing/Work/GoodByeDealer/" . "public/") ("/Users/wuwenqing/Work/GoodByeDealer/app/" . "Http/") ("/Users/wuwenqing/work/GoodByDealer/app/" . "controllers/") ("/Users/wuwenqing/Work/practise/store/" . "config/") ("/Users/wuwenqing/Work/GoodByDealer/app/models/" . "dict/") ("/Users/wuwenqing/Work/GoodByDealer/app/" . "controllers/") ("/Users/wuwenqing/OpenSource/phalcon-tools/scripts/" . "Phalcon/") ("/Users/wuwenqing/Work/GoodByDealer.bak/" . "common/") ("/Users/wuwenqing/Work/mogujie/appbeta/classes/crond/" . "mtalk/") ("/Users/wuwenqing/Work/mogujie/appbeta/classes/model/trade/shop/" . "util/") ("/Users/wuwenqing/Work/mogujie/appbeta/classes/controller/open/" . "shop/") ("/Users/wuwenqing/Work/mogujie/appbeta/classes/model/shopcenter/" . "service/") ("/Users/wuwenqing/Work/mogujie/appbeta/classes/model/trade/" . "shop/") ("/Users/wuwenqing/Work/mogujie/appbeta/classes/controller/trade/" . "crm/") ("/Users/wuwenqing/Work/mogujie/appbeta/classes/controller/" . "open/") ("/Users/wuwenqing/work/tools/" . "data_checker/") ("/Users/wuwenqing/OpenSource/" . "webadmin-template/") ("/Users/wuwenqing/Work/GarvinEngine/src/" . "util/") ("/Users/wuwenqing/Work/GarvinEngine/" . "include/") ("/Users/wuwenqing/work/practise/" . "erlang/") ("/Users/wuwenqing/Work/practise/" . "invo/") ("/Users/wuwenqing/Work/tools/update_group/" . "src/") ("/Users/wuwenqing/Work/tools/" . "update_group/") ("/Users/wuwenqing/Work/im-server-new/src/" . "base/") ("/Users/wuwenqing/Work/im-server-new/" . "src/") ("/Users/wuwenqing/work/im-server-new/src/" . "base/") ("/Users/wuwenqing/work/im-server-new/" . "src/") ("/Users/wuwenqing/Work/mogujie/appbeta/classes/model/mtalk/" . "common/") ("/Users/wuwenqing/Work/mogujie/appbeta/classes/model/" . "mtalk/") ("/Users/wuwenqing/Work/mogujie/appbeta/classes/" . "crond/") ("/Users/wuwenqing/Work/mogujie/appbeta/" . "classes/") ("/Users/wuwenqing/Work/mogujie/" . "appbeta/") ("/Users/wuwenqing/Work/GoodByDealer/" . "app/") ("/Users/wuwenqing/work/GoodByDealer/" . "app/") ("/Users/wuwenqing/.emacs.d/elpa/plugins/doxymacs/" . "lisp/") ("/Users/wuwenqing/.emacs.d/elpa/plugins/" . "helm/")))
+(setq ido-work-directory-list '("/Users/wuwenqing/Work/im-server-new/src/base/" "/Users/wuwenqing/Work/im-server-new/src/biz_base/" "/Users/wuwenqing/Work/im-server-new/src/logic_server_buddy/" "/Users/wuwenqing/Work/im-server-new/src/test_client/" "/Users/wuwenqing/Work/im-server-new/src/biz_server_buddy/" "/Users/wuwenqing/Work/im-server-new/doc/" "/Users/wuwenqing/Work/im-server-new/src/biz_server_login/" "/Users/wuwenqing/Work/im-server-new/src/http_protocol_proxy/" "/Users/wuwenqing/Work/im-server-new/src/biz_server_cinfo/" "/Users/wuwenqing/Work/GoodByeDealer/resources/views/layouts/" "/Users/wuwenqing/Work/GoodByeDealer/public/assets/css/" "/Users/wuwenqing/Work/GoodByeDealer/resources/views/" "/Users/wuwenqing/Work/GoodByeDealer/resources/views/intro/" "/Users/wuwenqing/Work/GoodByeDealer/resources/views/buy/" "/Users/wuwenqing/Work/GoodByeDealer/app/Http/Controllers/" "/Users/wuwenqing/Work/GoodByeDealer/app/Http/" "/Users/wuwenqing/Work/GoodByeDealer/app/Models/" "/Users/wuwenqing/Work/im-server-new/src/biz_server_general/" "/Users/wuwenqing/Work/GoodByeDealer/resources/views/admin/band/" "/Users/wuwenqing/Work/GoodByeDealer/resources/views/admin/car/" "/Users/wuwenqing/Work/GoodByeDealer/database/migrations/" "/Users/wuwenqing/Work/GoodByeDealer/resources/views/admin/" "/Users/wuwenqing/Work/GoodByeDealer/" "/Users/wuwenqing/Work/GoodByeDealer/resources/views/sell/" "/Users/wuwenqing/Work/GoodByeDealer/database/seeds/" "/Users/wuwenqing/Work/GoodByeDealer/resources/views/admin/config/" "/Users/wuwenqing/Work/GoodByeDealer/resources/views/admin/user/" "/Users/wuwenqing/Work/im-server-new/src/biz_server_msg_filter/" "/Users/wuwenqing/Work/im-server-new/src/biz_server_message/" "/Users/wuwenqing/Work/im-server-new/src/logic_server_message/" "/Users/wuwenqing/Work/im-server-new/src/biz_server_group/" "/Users/wuwenqing/Work/im-server-new/src/logic_server_group/" "/Users/wuwenqing/Work/GoodByeDealer/resources/views/deal/" "/Users/wuwenqing/.emacs.d/lisp/" "/Users/wuwenqing/" "/Users/wuwenqing/Work/GoodByeDealer/resources/views/result/" "/Users/wuwenqing/Work/GoodByeDealer/app/" "/Users/wuwenqing/Work/GoodByeDealer/app/Http/Controllers/Auth/" "/Users/wuwenqing/Work/GoodByeDealer.bak/app/Http/" "/Users/wuwenqing/Work/im-server-new/src/logic_server_login/" "/Users/wuwenqing/Work/im-server-new/src/access_server/" "/Users/wuwenqing/Work/im-server-new/src/load_balancer/" "/Users/wuwenqing/Work/GoodByeDealer/resources/views/admin/series/" "/Users/wuwenqing/Work/GoodByeDealer/public/assets/js/" "/Users/wuwenqing/Work/GoodByeDealer.bak/app/Http/Controllers/" "/Users/wuwenqing/Work/GoodByeDealer/app/Http/Requests/" "/Users/wuwenqing/Work/GoodByeDealer/public/assets/js/network/" "/Users/wuwenqing/Work/GoodByeDealer.bak/public/js/javascripts/network/" "/Users/wuwenqing/Work/GoodByeDealer/resources/views/introduce/" "/Users/wuwenqing/Work/GoodByeDealer.bak/resources/views/"))
+(setq ido-work-file-list '("CachePool.cpp" "Shop.cpp" "BuddyLogic.cpp" "User.cpp" "test_client.cpp" "BuddyBiz.cpp" "IM‘¿Í‘»§‘¶Ë‘·þ‘Îñ‘¶Ë‘½»‘»¥‘Ð­‘Òé‘ÎÄ‘µµ.md" "Shop.h" "LoginBiz.cpp" "BizServerLogin.conf"))
+(setq minibuffer-history '("getempl" "getemp" "gete" "getemp" "get" "\\_<_LoadEmployeeInfoFromDB\\_>" "getemp" "get" "\\_<GetEmployeeInfoFromCache\\_>" "getusers" "\\_<GetEmployeeInfoFromCache\\_>" "getusers" "\\_<GetEmployeeInfoFromCache\\_>" "user" "\\_<\\_>" "getusers" "\\_<\\_>" "biz " "584" "235" "329" "66" "347" "602" "390" "biz " "95" "\\_<_LoadEmployeeInfoFromDB\\_>" "getem" "\\_<_LoadEmployeeInfoFromDB\\_>" "\\_<int2string\\_>" "\\_<_LoadEmployeeInfoFromDB\\_>" "450" "564" "504" "666" "325" "500" "271" "\\_<\\_>" "1195" "988" "loa " "jss " "j " "js" "/Downloads/" "275" "im " "/Users/wuwenqing/Work/GoodByeDealer/"))
+(setq query-replace-history '("purchasing-instruction" "purchasing-introduce" "col-md-10" "col-mod-10" "/assets/img" "/images" "/assets/img" "/images" "/assets/img/" "/images/" "" "/uploads" "/images" "car" "config" "config" "serie" "config" "band" "/admin" "/admin/band" "OrderController" "StoryController" "CarController" "ConfigController" "StoryController" "ConfigController" "ConfigController" "SeriesController" "ConfigController" "SeriesController" "BandController" "/assets" "/webadmin/assets" "/assets" "\"/webadmin/assets" "/sell/fill" "/car/sell" "/car/sell" "" "/car/sell" "/assets/img/" "/images/" "/assets/img" "../images" "/assets/img" "/images" "/buy/show" "/car/show" "/assets/img" "/images" "/buy/show" "/car/show" "/assets/img" "/images" "/assets/css" "/css" "/asserts/img" "/images" "display"))
 (setq read-expression-history '("wq"))
-(setq regexp-history '("OnClose" "pHandlerMap"))
+(setq regexp-history '("LoadShopInfoFromDB" "strategy" "stratge" "<<<<<" "service" "head" "send_to_all_logic_server" "HandleLoginReq" "GetUsersIdInShop" "employee_map" "OnClose" "pHandlerMap"))
 (setq regexp-search-ring nil)
 (setq register-alist nil)
-(setq search-ring '("ontimer" "biz_server_status" "tbiz_server_stat" "killtas" "KillTasj" "ConfiName" "confiname" "ConfiName" "start" "http" "http_" "GetUsersShop" "GetUsers" "GetUsersInfo" "cimpduloginresp" "USER_R"))
+(setq search-ring '("getusersinfo" "handleservicereq. dispatch failed" "servicereq" "head" "service" "<<" ">" "<<" "<<<" "<<<<" ">" "<" "<<<" "find" "c" "58"))
 (setq shell-command-history nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 206
-  "/Users/wuwenqing/Work/publishserver/src/publish_server/Publish_server.cpp"
-  "Publish_server.cpp"
+  "/Users/wuwenqing/Work/im-server-new/src/biz_base/Shop.cpp"
+  "Shop.cpp"
   'c++-mode
   '(abbrev-mode anzu-mode auto-complete-mode helm-mode helm-gtags-mode linum-mode doxymacs-mode function-args-mode goto-address-prog-mode wakatime-mode)
-  2793
-  '(2780 nil)
+  13919
+  '(17376 nil)
   nil
   nil
   '((tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (overwrite-mode)))
-
-(desktop-create-buffer 206
-  "/Users/wuwenqing/Work/publishserver/src/publish_server/publishserver.conf"
-  "publishserver.conf"
-  'conf-unix-mode
-  '(anzu-mode helm-mode linum-mode wakatime-mode)
-  224
-  '(239 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode)))
-
-(desktop-create-buffer 206
-  "/Users/wuwenqing/Work/publishserver/src/base/ConfigFileReader.cpp"
-  "ConfigFileReader.cpp"
-  'c++-mode
-  '(abbrev-mode anzu-mode auto-complete-mode helm-mode helm-gtags-mode linum-mode doxymacs-mode function-args-mode goto-address-prog-mode wakatime-mode)
-  895
-  '(126 nil)
-  nil
-  nil
-  '((tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode)))
-
-(desktop-create-buffer 206
-  "/Users/wuwenqing/Work/publishserver/src/publish_server/HttpConn.cpp"
-  "HttpConn.cpp"
-  'c++-mode
-  '(abbrev-mode anzu-mode auto-complete-mode helm-mode helm-gtags-mode linum-mode doxymacs-mode function-args-mode goto-address-prog-mode wakatime-mode)
-  8963
-  '(10268 nil)
-  nil
-  nil
-  '((tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
-
-(desktop-create-buffer 206
-  "/Users/wuwenqing/Work/publishserver/script/start.sh"
-  "start.sh"
-  'sh-mode
-  '(anzu-mode auto-complete-mode helm-mode linum-mode goto-address-prog-mode wakatime-mode)
-  1646
-  '(2451 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode)))
-
-(desktop-create-buffer 206
-  "/Users/wuwenqing/Work/im-server-new/src/biz_base/User.h"
-  "User.h"
-  'c++-mode
-  '(abbrev-mode anzu-mode auto-complete-mode helm-mode helm-gtags-mode linum-mode doxymacs-mode function-args-mode goto-address-prog-mode wakatime-mode)
-  293
-  '(nil nil)
-  nil
-  nil
-  '((tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
-
-(desktop-create-buffer 206
-  "/Users/wuwenqing/Work/im-server-new/src/biz_base/User.cpp"
-  "User.cpp"
-  'c++-mode
-  '(abbrev-mode anzu-mode auto-complete-mode helm-mode helm-gtags-mode linum-mode doxymacs-mode function-args-mode goto-address-prog-mode wakatime-mode)
-  20697
-  '(5901 nil)
-  nil
-  nil
-  '((tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
-
-(desktop-create-buffer 206
-  "/Users/wuwenqing/Work/im-server-new/src/logic_server_login/LoginLogic.cpp"
-  "LoginLogic.cpp"
-  'c++-mode
-  '(abbrev-mode anzu-mode auto-complete-mode helm-mode helm-gtags-mode linum-mode doxymacs-mode function-args-mode goto-address-prog-mode wakatime-mode)
-  2290
-  '(1980 nil)
-  nil
-  nil
-  '((tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
-
-(desktop-create-buffer 206
-  "/Users/wuwenqing/Work/im-server-new/src/tcp_protocol_proxy/OldClientConn.cpp"
-  "OldClientConn.cpp"
-  'c++-mode
-  '(abbrev-mode anzu-mode auto-complete-mode helm-mode helm-gtags-mode linum-mode doxymacs-mode function-args-mode goto-address-prog-mode wakatime-mode)
-  21095
-  '(21101 nil)
-  nil
-  nil
-  '((tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
-
-(desktop-create-buffer 206
-  "/Users/wuwenqing/Work/im-server-new/src/base/ImPduLogin.h"
-  "ImPduLogin.h"
-  'c++-mode
-  '(abbrev-mode anzu-mode auto-complete-mode helm-mode helm-gtags-mode linum-mode doxymacs-mode function-args-mode goto-address-prog-mode wakatime-mode)
-  225
-  '(2617 nil)
-  nil
-  nil
-  '((tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
-
-(desktop-create-buffer 206
-  "/Users/wuwenqing/Work/im-server-new/src/biz_server_login/LoginBiz.cpp"
-  "LoginBiz.cpp"
-  'c++-mode
-  '(abbrev-mode anzu-mode auto-complete-mode helm-mode helm-gtags-mode linum-mode doxymacs-mode function-args-mode goto-address-prog-mode wakatime-mode)
-  3138
-  '(1 nil)
-  nil
-  nil
-  '((tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
 
 (desktop-create-buffer 206
   "/Users/wuwenqing/Work/im-server-new/src/biz_server_buddy/BuddyBiz.cpp"
   "BuddyBiz.cpp"
   'c++-mode
   '(abbrev-mode anzu-mode auto-complete-mode helm-mode helm-gtags-mode linum-mode doxymacs-mode function-args-mode goto-address-prog-mode wakatime-mode)
-  35208
-  '(36586 nil)
-  nil
-  nil
-  '((tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (overwrite-mode)))
-
-(desktop-create-buffer 206
-  "/Users/wuwenqing/Work/im-server-new/src/biz_base/Shop.cpp"
-  "Shop.cpp"
-  'c++-mode
-  '(abbrev-mode anzu-mode auto-complete-mode helm-mode helm-gtags-mode linum-mode doxymacs-mode function-args-mode goto-address-prog-mode wakatime-mode)
-  2450
-  '(1 nil)
+  14322
+  '(13566 nil)
   nil
   nil
   '((tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (overwrite-mode)))
@@ -181,9 +60,53 @@
   "BuddyLogic.cpp"
   'c++-mode
   '(abbrev-mode anzu-mode auto-complete-mode helm-mode helm-gtags-mode linum-mode doxymacs-mode function-args-mode goto-address-prog-mode wakatime-mode)
-  14421
-  '(25770 nil)
+  11703
+  '(9192 nil)
   nil
   nil
   '((tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (overwrite-mode)))
+
+(desktop-create-buffer 206
+  "/Users/wuwenqing/Work/im-server-new/src/test_client/test_client.cpp"
+  "test_client.cpp"
+  'c++-mode
+  '(abbrev-mode anzu-mode auto-complete-mode helm-mode helm-gtags-mode linum-mode doxymacs-mode function-args-mode goto-address-prog-mode wakatime-mode)
+  7643
+  '(7636 t)
+  nil
+  nil
+  '((tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/Users/wuwenqing/Work/im-server-new/doc/IM‘¿Í‘»§‘¶Ë‘·þ‘Îñ‘¶Ë‘½»‘»¥‘Ð­‘Òé‘ÎÄ‘µµ.md"
+  "IM‘¿Í‘»§‘¶Ë‘·þ‘Îñ‘¶Ë‘½»‘»¥‘Ð­‘Òé‘ÎÄ‘µµ.md"
+  'markdown-mode
+  '(anzu-mode auto-complete-mode helm-mode linum-mode wakatime-mode)
+  3035
+  '(3001 nil)
+  nil
+  nil
+  '((tab-width . 4) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/Users/wuwenqing/Work/im-server-new/src/biz_base/Shop.h"
+  "Shop.h"
+  'c++-mode
+  '(abbrev-mode anzu-mode auto-complete-mode helm-mode helm-gtags-mode linum-mode doxymacs-mode function-args-mode goto-address-prog-mode wakatime-mode)
+  3534
+  '(2213 nil)
+  nil
+  nil
+  '((tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (overwrite-mode)))
+
+(desktop-create-buffer 206
+  "/Users/wuwenqing/Work/im-server-new/src/http_protocol_proxy/HttpUser.cpp"
+  "HttpUser.cpp"
+  'c++-mode
+  '(abbrev-mode anzu-mode auto-complete-mode helm-mode helm-gtags-mode linum-mode doxymacs-mode function-args-mode goto-address-prog-mode wakatime-mode)
+  25152
+  '(8185 nil)
+  nil
+  nil
+  '((tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
 

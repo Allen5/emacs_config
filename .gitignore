@@ -109,3 +109,4 @@ smex-items
 .emacs.d/.smex-items
 .emacs.d/history
 .emacs.d/recentf
+.node-gyp

@@ -87,6 +87,7 @@
 (require 'init-python-mode)
 (require 'init-cmake)
 (require 'init-cpp)
+(require 'init-web)
 
 (when *spell-check-support-enable*
  (require 'init-spelling))
