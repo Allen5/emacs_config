@@ -88,6 +88,7 @@
 (require 'init-cmake)
 (require 'init-cpp)
 (require 'init-web)
+(require 'init-idl)
 
 (when *spell-check-support-enable*
  (require 'init-spelling))
