@@ -110,3 +110,4 @@ smex-items
 .emacs.d/history
 .emacs.d/recentf
 .node-gyp.gitignore_global
+.node-gyp/
