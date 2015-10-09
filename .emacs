@@ -62,6 +62,7 @@
 (require 'init-windows)
 (require 'init-sessions)
 (require 'init-mmm)
+(require 'init-ggtags)
 (require 'init-helm)
 (require 'init-helm-gtags)
 
@@ -89,6 +90,10 @@
 (require 'init-cpp)
 (require 'init-web)
 (require 'init-idl)
+
+
+;;refactor tools
+;;(require 'init-iedit)
 
 (when *spell-check-support-enable*
  (require 'init-spelling))
