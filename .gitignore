@@ -111,3 +111,5 @@ smex-items
 .emacs.d/recentf
 .node-gyp.gitignore_global
 .node-gyp/
+.sh_history
+scripts
