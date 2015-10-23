@@ -112,4 +112,18 @@ smex-items
 .node-gyp.gitignore_global
 .node-gyp/
 .sh_history
-scripts
+scripts.android/adbkey
+.android/adbkey.pub
+VirtualBox VMs/Win10/Logs/VBox.log.1
+VirtualBox VMs/Win10/Logs/VBox.log.3
+VirtualBox VMs/Win10/Win10.vbox
+VirtualBox VMs/Win10/Win10.vbox-prev
+VirtualBox VMs/Win10/Win10.vdi
+scripts/jump.sh
+VirtualBox VMs/Win10/Logs/VBox.log.2
+scripts/login.sh
+.bash_profile
+.bash_profile
+.bash_profile
+.bash_profile.backup
+.android/adbkey
