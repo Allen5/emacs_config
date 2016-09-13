@@ -71,6 +71,7 @@
 (require 'init-python-mode)
 (require 'init-javascript)
 (require 'init-web)
+(require 'init-cmake)
 
 ;;-----------------------------------------------------------
 ;; 加载个人隐私信息
