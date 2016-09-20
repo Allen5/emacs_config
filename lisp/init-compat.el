@@ -40,4 +40,3 @@ to case differences."
   (defvaralias 'last-command-char 'last-command-event))
 
 (provide 'init-compat)
-

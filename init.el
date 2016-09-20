@@ -42,6 +42,8 @@
 (require 'init-xterm)
 (require 'init-themes)
 (require 'init-gui-frames)
+(require 'init-nyan-mode)
+(require 'init-golden-ratio)
 
 ;;-----------------------------------------------------------
 ;; 辅助工具配置
@@ -58,10 +60,16 @@
 (require 'init-uniquify)
 (require 'unicad)
 (require 'init-git)
+(require 'init-ibuffer)
+(require 'init-dired-plus)
+(require 'init-ztree)
+(require 'init-highlight-numbers)
+(require 'init-highlight-symbol)
 
 ;;-----------------------------------------------------------
 ;; 自动补全
 ;;-----------------------------------------------------------
+(require 'init-company)
 (require 'init-auto-complete)
 (require 'init-yasnippet)
 
@@ -72,6 +80,7 @@
 (require 'init-javascript)
 (require 'init-web)
 (require 'init-cmake)
+(require 'init-cpp)
 
 ;;-----------------------------------------------------------
 ;; 加载个人隐私信息

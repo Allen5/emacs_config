@@ -1,6 +1,5 @@
 
 ;; 静态检查
-
 (when (maybe-require-package 'flycheck)
   (add-hook 'after-init-hook 'global-flycheck-mode)
 
@@ -9,6 +8,5 @@
         flycheck-idle-change-delay 0.8)
 
   (setq flycheck-display-errors-function #'flycheck-display-error-messages-unless-error-list))
-
 
 (provide 'init-flycheck)
