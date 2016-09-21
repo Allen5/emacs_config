@@ -1,6 +1,7 @@
 
-;;加载helm
+;;加载helm, helm-ggtags
 (require-package 'helm)
+
 (require 'helm)
 (require 'helm-config)
 
@@ -9,7 +10,5 @@
 
 ;;开启窗口自适应
 (helm-autoresize-mode 1)
-
-;;TODO: 快捷键绑定helm-find-files
 
 (provide 'init-helm)

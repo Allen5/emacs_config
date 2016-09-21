@@ -30,7 +30,6 @@
 ;;-----------------------------------------------------------
 (require-package 'wgrep)
 (require-package 'project-local-variables)
-(require-package 'diminish)
 (require-package 'scratch)
 (require-package 'mwe-log-commands)
 (require-package 'wakatime-mode)
@@ -65,6 +64,7 @@
 (require 'init-ztree)
 (require 'init-highlight-numbers)
 (require 'init-highlight-symbol)
+(require 'init-speedbar)
 
 ;;-----------------------------------------------------------
 ;; 自动补全
@@ -72,6 +72,7 @@
 (require 'init-company)
 (require 'init-auto-complete)
 (require 'init-yasnippet)
+(require 'init-semantic)
 
 ;;-----------------------------------------------------------
 ;; 编程语言支持
@@ -81,7 +82,6 @@
 (require 'init-web)
 (require 'init-cmake)
 (require 'init-cpp)
-
 ;;-----------------------------------------------------------
 ;; 加载个人隐私信息
 ;;-----------------------------------------------------------
