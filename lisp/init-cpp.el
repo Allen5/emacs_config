@@ -5,7 +5,7 @@
 
 (add-hook 'cmode-common-hook
 		  (lambda ()
-			(when (derived-mode-p 'c-mode 'c++-mode 'java-mode 'asm-mode)
+			(when (derived-mode-p 'c-mode 'c++-mode 'c/l-mode 'c++/l-mode 'java-mode 'asm-mode)
 			  (ggtags-mode 1))))
 
 ;; 目录浏览模式下开启 ggtags mode
